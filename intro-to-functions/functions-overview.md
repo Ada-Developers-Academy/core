@@ -25,7 +25,7 @@ Functions hold lines of logic!
 
 This logic is typically related to each other.
 
-Example: Here is a chunk of pseudocode that describes the logic for converting a temperature in degrees from celsius to fahrenheit:
+**Look at this example:** Here is a chunk of pseudocode that describes the logic for converting a temperature in degrees from celsius to fahrenheit:
 
 ```python
 # Put the degrees in celsius in a variable named deg_celsius
@@ -42,7 +42,7 @@ All functions have a name.
 
 This name is how we will use, define, and talk about the method.
 
-Example: A function that holds the logic for converting degrees from celsius to fahrenheit could have any of these names:
+**Look at this example:** A function that holds the logic for converting degrees from celsius to fahrenheit could have any of these names:
 
 - `convert_celsius_to_fahrenheit`
 - `convert_temperature`
@@ -54,7 +54,7 @@ Or anything else!
 
 We define and name functions. The logic that a function holds **never** executes... **until we write code that invokes the function**, or says, "Hey! Actually do the code inside of the function!"
 
-Example: We can define a function named `convert_temperature` that holds the logic that converts degrees to fahrenheit. However, it won't actually convert any temperature until we write code to "do" the function.
+**Look at this example:** We can define a function named `convert_temperature` that holds the logic that converts degrees to fahrenheit. However, it won't actually convert any temperature until we write code to "do" the function.
 
 ```python
 # Define a function named convert_temperature
@@ -76,7 +76,7 @@ When we **"run the function"**, we can **pass in** data **into** the function.
 
 This function **takes in** data. Then, the function uses the data inside of its logic.
 
-Example: For a function named `convert_temperature`, that converts **any** temperature in celsius to fahrenheit, we want the function `convert_temperature` to **take in** one piece of data: a temperature in celsius.
+**Look at this example:** For a function named `convert_temperature`, that converts **any** temperature in celsius to fahrenheit, we want the function `convert_temperature` to **take in** one piece of data: a temperature in celsius.
 
 ### Functions Return a Result
 
@@ -84,7 +84,7 @@ Functions return a result from the function. The result is a piece of data.
 
 When a function **runs** and executes its logic, we can tell functions to do something special: return a result _back_ to the line of code that ran the function in the first place.
 
-Example: For our function `convert_temperature`, we want the function to **return the result** of one piece of data: a temperature in fahrenheit.
+**Look at this example:** For our function `convert_temperature`, we want the function to **return the result** of one piece of data: a temperature in fahrenheit.
 
 ### Functions Are Reusable
 
@@ -117,7 +117,7 @@ Callout: What is "one thing"? This principle intentionally relies on abstraction
 
 We can talk about a function's responsibility with the sentence, "The responsibility of this function is to..."
 
-Example: Our `convert_temperature` function is responsible for converting a temperature in celsius to a temperature in fahrhenheit.
+**Look at this example:** Our `convert_temperature` function is responsible for converting a temperature in celsius to a temperature in fahrhenheit.
 
 In practice, functions often have more than one responsibility.
 
