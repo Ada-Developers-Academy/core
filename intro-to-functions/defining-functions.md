@@ -79,13 +79,13 @@ def function_name(apples, oranges):
 
 Read this table as it describes each piece of code in the function signature from left-to-right:
 
-| Piece of Code | Label | Notes |
+| Piece of Code | Notes |
 | --- | --- | ---
-| `def` | Beginning of the Function Definition | `def` is a special keyword in Python. Python interpreters read `def` and go "Hey! I'm beginning to define a function!", and reads the rest of the line as a function definition. **Ensure that a space separates `def` and the function name.**
-| `function_name` | Name of the function; **replace this!** | Replaces this part with the name of the function you are defining.
-| `( ... )` | Parentheses that contain the parameter list | These round parentheses contain the parameter list. Ensure that it's inbetween the function name and colon(`:`)! Ensure that there is an ending `)`!
-| `apples, oranges` | Parameter list; **replace this!** | Arguments named inside of a function signature are technincally called **parameters.** Here is a comma-separated list of the parameters of this function. There can be 0 parameters, in which case the parens would be empty, and the method signature would look like `def function_name():`
-| `:` | Colon that ends the function signature | This colon ends the function signature, and begins the function body. It's easy to not remember this colon!
+| `def` |`def` is a special keyword in Python. Python interpreters read `def` and go "Hey! I'm beginning to define a function!", and reads the rest of the line as a function definition.
+| `function_name` | **Replace this** part with the name of the function you are defining.
+| `( ... )` | These round parentheses contain the parameter list. Ensure that it's inbetween the function name and colon(`:`)! Ensure that there is an ending `)`!
+| `apples, oranges` | This is the function's parameter list. **Replace this!** Arguments named inside of a function signature are technincally called **parameters.** Here is a comma-separated list of the parameters of this function. There can be 0 parameters, in which case the parens would be empty, and the method signature would look like `def function_name():`
+| `:` | This colon ends the function signature, and begins the function body. It's easy to not remember this colon!
 
 Let's look at some examples of different function signatures:
 
@@ -95,10 +95,6 @@ def sing_happy_birthday_to_everyone():
 
 ```python
 def sing_happy_birthday(name):
-```
-
-```python
-def display_status():
 ```
 
 ```python
