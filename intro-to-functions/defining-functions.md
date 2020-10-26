@@ -70,7 +70,7 @@ The first part of a function definition is the function signature. The function 
 
 1. That it's a function
 2. The name of the function
-3. How many arguments it has, and the intended meaning of each argument, aka the parameters
+3. The parameters of the function
 
 The function signature is one line of code:
 ```python
@@ -117,7 +117,7 @@ For every argument we want to pass into this function when we call it, we should
 
 Each parameter is a variable name. We can name each parameter anything we would name a variable... So our best parameter names are descriptive and readable.
 
-This is where functions define the **position** of their parameters/arguments.
+This is where functions define the **position** of their parameters.
 
 ### Naming Conventions for Naming Your Functions
 
