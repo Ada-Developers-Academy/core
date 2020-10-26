@@ -215,6 +215,14 @@ The argument `15` is positionally first, and gets mapped to become the value of 
 
 Run this code to see what prints out as the value of. Change the arguments of the function call, and observe that the value of the variable in the function body reflects this change.
 
+```python
+def add(a, b):
+    sum = a + b
+    print(f"{a} + {b} = {sum}")
+
+add(15, 38)
+```
+
 ## Define Return Values with `return`
 
 We define the return value of a function by writing a **return statement** in a function body. There are three rules to creating a return statement:
