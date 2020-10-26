@@ -21,8 +21,8 @@ When we write code, we are designing processes. Sometimes, these processes are s
 
 Functions are chunks of code that:
   - hold related, sequential logic
-  - named
-  - don't do anything, until we tell that function to do something
+  - usually have a name
+  - don't do anything, until we tell it to do something
   - take in data
   - return a result
   - are reusable
@@ -44,9 +44,9 @@ This logic is typically related to each other.
 
 A function can hold logic such as this.
 
-### Functions Are Named
+### Functions Usually Have Names
 
-All functions have a name.
+Almost every function has a name.
 
 This name is how we will use, define, and talk about the method.
 
