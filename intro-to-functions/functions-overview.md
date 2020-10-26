@@ -2,7 +2,46 @@
 
 ## Introduction
 
-When we write code, we are designing processes. Sometimes, these processes are small directions, and get repeated a lot. Sometimes, they get remixed, and need to be flexible. Sometimes, they are abstract, and large, and contain many other sub-processes within them. Sometimes those sub-processes have sub-processes. We need a way to think about writing code and reusing code.
+When we write code, we are creating sets of instructions.
+
+Imagine this pseudocode for making a [peanut butter and jelly sandwich](https://en.wikipedia.org/wiki/Peanut_butter_and_jelly_sandwich):
+
+```
+Get ingredients
+Get materials
+Spread peanut butter on bread
+Spread jelly on bread
+Put the bread together
+```
+
+Sometimes, these sets of instructions are small, and get repeated and remixed:
+
+```
+Spread peanut butter on bread
+Spread jelly on bread
+```
+
+Sometimes they are large and abstract, and contain sets of instructions inside them:
+
+```
+Get ingredients
+  Get peanut butter
+  Get jelly
+  Get bread
+```
+
+Sometimes, those sets of instructions have sets of instruction inside them!
+
+```
+Get ingredients
+  Get peanut butter
+    Check if you have peanut butter at home
+    If you don't have peanut butter at home, go to the store and buy a jar of peanut butter
+```
+
+How do programmers work with this large amount of code? We can keep our code flexible and organized by using the power of functions!
+
+Functions give developers a way to think about writing code and reusing code.
 
 ## Learning Goals
 
@@ -19,7 +58,7 @@ When we write code, we are designing processes. Sometimes, these processes are s
 
 ## What are Functions?
 
-Functions are chunks of code that:
+Functions are lines of code that:
   - hold related, sequential logic
   - usually have a name
   - don't do anything, until we tell it to do something
