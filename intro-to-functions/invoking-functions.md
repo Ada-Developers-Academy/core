@@ -7,7 +7,7 @@ A function is a reusable chunk of code. Every function is defined with a name an
 ## Learning Goals
 
 - Apply Single Responsibility Principle to functions
-- Demonstrate calling functions with and without arguments/parameters
+- Demonstrate calling functions with and without arguments
 - Use the return value in a function
 
 ## Vocabulary and Synonyms
@@ -71,8 +71,8 @@ time.time
 Now, run this code, and observe the difference.
 
 ```python
-time.time()
 import time
+time.time()
 ```
 
 `time.time()` (with `()`) invokes the function, and gives us the number of seconds since epoch, fulfilling its responsibility. Without `()`, we are simply just acknowledging that `time.time` is a defined function.
@@ -124,7 +124,8 @@ Arguments can be any data type:
 - Strings
 - Lists
 - Dictionaries
-- Numbers
+- `None`
+- Anything else!
 
 Arguments can be:
 - Literal values (such as `"apples"`)
@@ -145,20 +146,24 @@ Traceback (most recent call last):
 TypeError: len() takes exactly one argument (2 given)
 ```
 
-To recreate this, open up the python interpreter with `$ python3`, and then execute the line of code `len("Hello", "World")`.
+You can recreate the error here:
+
+```python
+len("Hello", "World")
+```
 
 Reading through our error messages, we should determine:
 
 1. The type of error is `TypeError`
-1. The details state `len() takes exactly one argument (2 given)`. This method takes in one argument, but we gave it two.
+1. The details state `len() takes exactly one argument (2 given)`. This function takes in one argument, but we gave it two.
 1. This error was traced to `line 1` from where this code was written.
 
 To debug, we should...
 
 1. re-run the code to make sure we can reproduce the error message
-1. read the error message and see where the difference bet
-1. find the line of code that calls this method
-1. adjust how we call the method, with the proper number of arguments passed in
+1. read the error message and see where the erroneous code is
+1. find the line of code that calls this function
+1. adjust how we call the function, with the proper number of arguments passed in
 
 ## Functions Return a Value Back to the Code that Invoked It
 
@@ -166,9 +171,9 @@ Functions **_give back_** one value to the code that invoked the function. Often
 
 The value that a function **gives back** to whoever called it is called its **return value**.
 
-We can usually describe a return value by simply describing what it represents. Return values always have a _literal_ value after invoking a function, though.
-
 Return values can be any data type. They can even be `None`!
+
+We can usually describe a return value by simply describing what it represents. Return values always have a _literal_ value after invoking a function, though.
 
 Let's look at the return values for some functions we've observed, and some functions we can call.
 
@@ -192,7 +197,7 @@ When a function is invoked, the return value is used to pass back a value to the
 
 Our logic will often rely on these return values of the functions we use.
 
-Pattern: We will often...
+**Setting Up a Pattern:** We will often...
 1. _declare_ a variable
 1. then _assign_ that variable to the return value of a function, by invoking that function on the right-hand side of the assignment operator `=`.
 
@@ -258,8 +263,6 @@ To debug, we should...
 1. Determine what name is giving us an error (in this case, `time`)
 1. Determine how that name **should be** defined/loaded (in this case, the line `import time`)
 1. Change our code so how we define this function is **before** where we call this function (in this case, moving the import line to above the function call)
-
-## Summary
 
 ## Check for Understanding
 
