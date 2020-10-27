@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Imagine finishing a coding exercise. You had to loop through an array and print out the numbers 1-5. You run your Ruby program, and there it goes... printing... `1`...`2`...`3`...`16`... What?! That's not what's supposed to happen.
+Imagine finishing a coding exercise. You had to loop through an array and print out the numbers 1-5. You run your Python program, and there it goes... printing... `1`...`2`...`3`...`16`... What?! That's not what's supposed to happen.
 
 Didn't you write all the code you needed to? Did you forget something? Or did you add too many things? Is the syntax correct?
 
@@ -20,6 +20,12 @@ By the end of this lesson, we will be able to...
 - Use techniques to print a variable's value to a console as a form of debugging
 - Define rubber duck debugging
 - Explain how rubber duck debugging can help debug logic
+
+## Vocabulary and Synonyms
+
+| Vocab | Definition | Synonyms | How to Use in a Sentence
+| --- | --- | --- | ---
+Debugging | The process of identifying and removing errors from computer hardware or software | Fixing, inspecting | "I need to debug my view and figure out why it wasn't displaying right," "Have you tried to debug your error?"
 
 ## Debugging is a Way to Ask and Answer Questions
 
