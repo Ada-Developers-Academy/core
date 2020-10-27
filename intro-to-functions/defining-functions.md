@@ -79,8 +79,8 @@ def function_name(apples, oranges):
 
 Read this table as it describes each piece of code in the function signature from left-to-right:
 
-| Piece of Code | Notes |
-| --- | --- | ---
+| Piece of Code | Notes
+| --- | ---
 | `def` |`def` is a special keyword in Python. Python interpreters read `def` and go "Hey! I'm beginning to define a function!", and reads the rest of the line as a function definition.
 | `function_name` | **Replace this** part with the name of the function you are defining.
 | `( ... )` | These round parentheses contain the parameter list. Ensure that it's inbetween the function name and colon(`:`)! Ensure that there is an ending `)`!
