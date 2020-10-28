@@ -12,7 +12,7 @@ Ways to increase our skill include:
 
 ## Learning Goals
 
-- Practice representing a list of data as a list
+
 
 ## Recognizing Lists When Reading Python Code
 
