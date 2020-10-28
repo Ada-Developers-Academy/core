@@ -1,4 +1,4 @@
-# Data in Lists
+# Problem Solving With Lists
 
 ## Introduction
 
