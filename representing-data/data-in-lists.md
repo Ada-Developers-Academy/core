@@ -2,11 +2,13 @@
 
 ## Introduction
 
-Lists are a data type. They are also a data structure, that organize many kinds of data into an ordered list. We can create lists, access elements in them by index, add elements to them, remove elements, and modify elements.
+Lists are a data type. Also, lists are a **data structure** that organizes many kinds of data into an ordered list.
 
-The next stage of intimacy with lists is getting comfortable in representing a list of data as a list in Python.
+As programmers, we want to have the skills to efficiently and elegantly use lists while we work with data.
 
-This might mean:
+The next stage of proficiency with lists is getting comfortable in representing a list of data as a list in Python.
+
+Ways to increase our skill include:
 - getting familiar with list syntax enough that we can recognize lists while reading code
 - getting familiar with problem-solving enough that we can recognize lists while reading problems
 
@@ -111,7 +113,7 @@ Share your notes about what you observed in the above problem statement. **What 
 | Mentions adding or removing an element to a list | Lists are really great at growing and shrinking. | "The user should be able to add or remove any number of shopping items" "Remove any letter that isn't uppercase." "Add a book every time someone checks out a book."
 | Mentions the length of a list | Lists can easily calculate its own length, and clues around constraints or freedoms around a list's length is a clue to use a list. | "The grocery list should never be over 15 items." "An alphabet can have an infinite number of characters," "Check the number of books every time we check out a book."
 
-## Summarizing Lists
+## Summary
 
 We should continue to use lists to represent lists of ordered data.
 
