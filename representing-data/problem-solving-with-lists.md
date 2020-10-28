@@ -1,18 +1,14 @@
-# Problem Solving With Lists
+# Reading Code With Lists
 
 ## Introduction
 
 Lists are a data type. Also, lists are a **data structure** that organizes many kinds of data into an ordered list.
 
-As programmers, we want to have the skills to efficiently and elegantly use lists while we work with data.
-
-The next stage of proficiency with lists is getting comfortable in representing a list of data as a list in Python.
+As programmers, we want to have the skills to efficiently and elegantly use lists while we work with data. We should get comfortable with reading code and recognizing when lists are in play.
 
 Ways to increase our skill include:
-- getting familiar with list syntax enough that we can recognize lists while reading code
-- getting familiar with problem-solving enough that we can recognize lists while reading problems
-
-Whenever syntax for reading, creating, and using lists is fuzzy in our memories, we should look up that syntax, or refresh our memories with how to use lists.
+- Recognizing lists while reading code
+- Recognizing lists while reading problems
 
 ## Learning Goals
 
@@ -24,11 +20,11 @@ We want to be so familiar with lists, that even when we read unfamiliar Python c
 
 To get to that familiarity, in this lesson, we will...
 
-1. Read some list-heavy Python code
+1. Read Python code
 2. Write our own observations for how to recognize lists
 3. Make conclusions about recognizing data and lists in Python
 
-### Remember What Some List-Heavy Python Code Looks Like
+### Reading Code
 
 Read this code below line-by-line and take notes about what's happening.
 
@@ -59,7 +55,7 @@ Share your notes about what you observed in the above code. **What pieces of syn
 | Square brackets `[]` | Square brackets are a big indicator of lists. We use square brackets to **create list literals.** We use square brackets with an integer inside next to a list to _index_ into a list. `[]` is a list literal that is an empty list. | There are a few other pieces of Python syntax that use square brackets, so be careful to pay attention to context
 | Plural variable name | Because lists contain **multiple elements,** we usually assign lists to variables with plural variable names. | This isn't a Python syntax rule, so it isn't enforced. This entirely depends on the context of the program.
 | Using the word "append" | "Append" means adding something to the end of something. This word gets used commonly with lists. Lists specifically have a method named `append`, which adds an element to the end of the list. | Not many other things in Python use the word "append," although it's not a reserved word.
-| Using the word "length" | A common property to care about for lists is its length. An empty list has a length of zero. We can use the `len` function and pass in a list to get its length. | Many different data types in Python have a "length" property, such as Strings!
+| Using the word "length" | A frequently used property for lists is its length. An empty list has a length of zero. We can use the `len` function and pass in a list to get its length. | Many different data types in Python have a "length" property, such as Strings!
 
 Feel free to bring in any other conclusions missed in the above table!
 
@@ -73,7 +69,7 @@ To get to that familiarity, in this lesson, we will...
 2. Write our own observations for how to recognize lists
 3. Make conclusions about recognizing data and lists in problem-solving
 
-### An Example Problem Statement for a Coding Problem
+### An Example Problem Statement
 
 Compare these two sequences of DNA, which contain many pieces of DNA. They are similar, but not the same, based on the order and value of each piece. These two sequences are the same length.
 
