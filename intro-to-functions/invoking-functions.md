@@ -6,7 +6,6 @@ A function is a reusable chunk of code. Every function is defined with a name an
 
 ## Learning Goals
 
-- Apply Single Responsibility Principle to functions
 - Demonstrate calling functions with and without arguments
 - Use the return value in a function
 
@@ -24,8 +23,6 @@ A function is a reusable chunk of code. Every function is defined with a name an
 Functions do things, and have a responsibility to do things when they are _invoked_.
 
 It will be easiest for us to use functions in the future when we understand what the _responsibility_ of each function is when we use it. We should describe what each function is supposed to be doing, and understand what "goes into" a function, gets computed inside of a function, and "goes out" of a function before we use it.
-
-Ideally, [every function does one thing, and does it well,](https://en.wikipedia.org/wiki/Single-responsibility_principle) although often a function will be responsible for doing two, three, or more things!
 
 Python has defined a lot of functions for us to use, already. Let's look at some Python functions and their responsibilities.
 

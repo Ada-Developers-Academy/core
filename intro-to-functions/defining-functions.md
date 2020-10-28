@@ -8,7 +8,6 @@ If, in a given project, we want to **define** our own reusable chunks of code, t
 
 ## Learning Goals
 
-- Apply Single Responsibility Principle to functions
 - Define a function (function signature, function body, return)
 - Demonstrate calling functions with and without arguments/parameters
 

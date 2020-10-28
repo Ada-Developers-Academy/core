@@ -157,15 +157,3 @@ Callout: What is "one thing"? This principle intentionally relies on abstraction
 We can talk about a function's responsibility with the sentence, "The responsibility of this function is to..."
 
 **Look at this example:** Our `convert_temperature` function is responsible for converting a temperature in celsius to a temperature in fahrhenheit.
-
-## Summary
-
-Functions are chunks of code that:
-  - hold related, sequential logic
-  - named
-  - don't do anything, until we tell that function to do something
-  - take in data
-  - return a result
-  - are reusable
-
-Functions can have many responsibilities. When a function has one responsibility, it is adhering to the Single Responsibility Principle.
