@@ -1,4 +1,4 @@
-# How to Pseudocode
+# Pseudocode and Logic
 
 ## Learning Goals
 
@@ -35,6 +35,19 @@ Pseudocode | an informal code style intended to give explanation and meaning | -
 
 **[Pseudocode](https://en.wikipedia.org/wiki/Pseudocode)** is a term that describes **informal, non-working, non-functioning lines of code intended to give explanation and meaning to developers.** It is code that is not intended to be part of the final solution/program.
 
+Pseudocode...
+- Catches logical errors and bugs more quickly
+- Can possibly express thoughts more clearly than code
+- Makes changes easier
+- Documents our work
+- Supports iterative refinement
+
+Pseudocode allows us to think through the logic of solving a problem before implementing functioning code. It can help dramatically with our creative flow because what we write on the screen can match exactly what is in our brain.
+
+By integrating pseudocode into the coding process, we'll be able to plan, communicate, and debug code better and more quickly.
+
+### Examples
+
 Observe the following examples. Try to figure out the goal of each block of code. Which block of code is easier to read and understand the goal?
 
 1.
@@ -67,9 +80,7 @@ Overall, it should be easier to read Example 1 and understand its goal because i
 
 Example 2 is full of working, functional code. However, sometimes, Example 2 is easier to read, because it's less information to parse through. However, this requires developers to know the precise syntax at the time of writing it.
 
-Pseudocode allows us to think through the logic of solving a problem before implementing functioning code. It can help dramatically with our creative flow because what we write on the screen can match exactly what is in our brain. 
-
-### Pseudocode Can Be Any Style, and Your Style!
+### Pseudocode Can Be Any Style
 
 There are no rules about pseudocode and what it should look like! Therefore, all of these are valid examples of pseudocode.
 
@@ -138,16 +149,6 @@ Your answer here
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-## Benefits of Pseudocode
-
-- Catches logical errors and bugs more quickly
-- Makes changes easier
-- Documents our work
-- Supports iterative refinement
-
-By integrating pseudocode into the coding process, we'll be able to plan, communicate, and debug code better and more quickly.
-
-Adding pseudocode doesn't need to be a long, bulky, or hard process. It can take either a few seconds or a few minutes.
 
 ## Applying the Process
 
