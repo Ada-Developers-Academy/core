@@ -12,11 +12,11 @@ As a programmer, the terminal is one of our most important tools, and we will ru
 
 ## Vocabulary and Synonyms
 
-| Vocab     | Definition                                                                                                                                                      | Synonyms | How to Use in a Sentence |
-| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------ |
-| interface | A medium that takes information from one source, and passes it to another source.The interface usually makes a meaningful translation between the two sources. | -        | "The command line and the terminal is one interface for how we interact with the file system and run programs on our computer," "That program has a graphical user interface, and there are buttons and images to interact with"
-| folder | A named container of files and other folders (normally named sub-folders). Can be inside another folder. | directory | "I'm going to make another folder in this folder to organize things better," "Check to see if you put that file in the home directory"
-| Root directory | The nickname of the top-most folder that exists on the machine | root | "That program gets installed and its files live somewhere in root," "I don't usually spend much time in the root directory"
+| Vocab          | Definition                                                                                                                                                     | Synonyms  | How to Use in a Sentence                                                                                                                                                                                                         |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| interface      | A medium that takes information from one source, and passes it to another source.The interface usually makes a meaningful translation between the two sources. | -         | "The command line and the terminal is one interface for how we interact with the file system and run programs on our computer," "That program has a graphical user interface, and there are buttons and images to interact with" |
+| folder         | A named container of files and other folders (normally named sub-folders). Can be inside another folder.                                                       | directory | "I'm going to make another folder in this folder to organize things better," "Check to see if you put that file in the home directory"                                                                                           |
+| Root directory | The nickname of the top-most folder that exists on the machine                                                                                                 | root      | "That program gets installed and its files live somewhere in root," "I don't usually spend much time in the root directory"                                                                                                      |
 
 ## Command Line vs. Terminal vs. Shell
 
@@ -50,14 +50,14 @@ In our terminal, **there is only one current working directory at a time;** the 
 
 ### Commands
 
-| Command in the Command Line | Description | Notes |
-| --------------------------- | ----------- | ----- |
-`pwd` | Print the path of the current working directory | Use this command when you're lost in the terminal or need to confirm where you are; you can read this path to understand the pathway to get to the current working directory from root.
-`ls` | List the visible files and folders that are inside of the current directory | This command does not list hidden files or folders; there is a separate argument for that
-`ls -A` | List all the files and folders inside of the current directory | The `-A` is an _argument_ to the `ls` command
-`cd somefolder` | Change the working directory to the given path. This path is a relative path from the current location | In this example, `cd somefolder` will navigate to a sub-folder named `somefolder`
-`cd ..` | Change the working directory to the given path... And `..` is a nickname for "the parent folder of the current directory." | Use this command to go "up" one folder level
-`cd ~` | Change the working directory to the home directory | Use this command to always go back home
+| Command in the Command Line | Description                                                                                                                | Notes                                                                                                                                                                                   |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pwd`                       | Print the path of the current working directory                                                                            | Use this command when you're lost in the terminal or need to confirm where you are; you can read this path to understand the pathway to get to the current working directory from root. |
+| `ls`                        | List the visible files and folders that are inside of the current directory                                                | This command does not list hidden files or folders; there is a separate argument for that                                                                                               |
+| `ls -A`                     | List all the files and folders inside of the current directory                                                             | The `-A` is an _argument_ to the `ls` command                                                                                                                                           |
+| `cd somefolder`             | Change the working directory to the given path. This path is a relative path from the current location                     | In this example, `cd somefolder` will navigate to a sub-folder named `somefolder`                                                                                                       |
+| `cd ..`                     | Change the working directory to the given path... And `..` is a nickname for "the parent folder of the current directory." | Use this command to go "up" one folder level                                                                                                                                            |
+| `cd ~`                      | Change the working directory to the home directory                                                                         | Use this command to always go back home                                                                                                                                                 |
 
 #### Feedback
 
@@ -87,23 +87,23 @@ Colloquially, a _project's_ root directory is the top-most _project_ folder.
 
 ## Working with Files and Folders in the File System
 
-We can create and delete files and folders from the command line. 
+We can create and delete files and folders from the command line.
 
 ### Commands for Creating Files and Folders
 
-| Command in the Command Line | Description | Notes |
-| --------------------------- | ----------- | ----- |
-`mkdir new-folder-name` | Creates a new folder with the given path and folder name. By default, this will create a new folder as a sub-folder in the current working directory | In this example, `mkdir new-folder-name` makes a new folder named `new-folder-name` inside the current directory.
-`touch new_file.py` | Creates a new file with the given path and file name. By default, this creates a new file inside the current working dierctory | In this example, `touch new_file.py` makes a new file named `new_file.py`. We should include the file extension in this filename.
+| Command in the Command Line | Description                                                                                                                                          | Notes                                                                                                                             |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `mkdir new-folder-name`     | Creates a new folder with the given path and folder name. By default, this will create a new folder as a sub-folder in the current working directory | In this example, `mkdir new-folder-name` makes a new folder named `new-folder-name` inside the current directory.                 |
+| `touch new_file.py`         | Creates a new file with the given path and file name. By default, this creates a new file inside the current working dierctory                       | In this example, `touch new_file.py` makes a new file named `new_file.py`. We should include the file extension in this filename. |
 
 ### Commands for Deleting Files and Folders
 
 Files and folders deleted with these commands are difficult to recover; use them often and wisely!
 
-| Command in the Command Line | Description | Notes |
-| --------------------------- | ----------- | ----- |
-`rm -rf folder-name` | Deletes the folder with the given path and folder name, and all of the files and folders inside of it. By default, this deletes the folder in the current working directory | In this example, `rm -rf folder-name` deletes the folder named `folder-name` inside the current directory. 
-`rm some_file.py` | Deletes the file with the given path and file name. By default, this creates a new file inside the current working dierctory | In this example, `touch new_file.py` makes a new file named `new_file.py`. We should include the file extension in this filename. | In this examle, `rm some_file.py` deletes the file named `some_file.py` inside the current directory.
+| Command in the Command Line | Description                                                                                                                                                                 | Notes                                                                                                                             |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `rm -rf folder-name`        | Deletes the folder with the given path and folder name, and all of the files and folders inside of it. By default, this deletes the folder in the current working directory | In this example, `rm -rf folder-name` deletes the folder named `folder-name` inside the current directory.                        |
+| `rm some_file.py`           | Deletes the file with the given path and file name. By default, this creates a new file inside the current working dierctory                                                | In this example, `touch new_file.py` makes a new file named `new_file.py`. We should include the file extension in this filename. | In this examle, `rm some_file.py` deletes the file named `some_file.py` inside the current directory. |
 
 ## Recommended File System Structure
 
@@ -112,21 +112,24 @@ As developers, over time, we will make hundreds of files and folders.
 If you've never organized that many files and folders, and don't have a preference for how to organize, then we recommend that following this folder structure:
 
 ### `~/Developer`
-  - This is a folder where you put all of your developer-y code stuff!
-  - Make this folder with `$ mkdir ~/Developer` for the first time
-  - Navigate to this folder from any location in Terminal with `$ cd ~/Developer`, or using your relative commands to change directories
+
+- This is a folder where you put all of your developer-y code stuff!
+- Make this folder with `$ mkdir ~/Developer` for the first time
+- Navigate to this folder from any location in Terminal with `$ cd ~/Developer`, or using your relative commands to change directories
 
 ### `~/Developer/projects`
-  - This is a folder where you put all of your Ada projects
-  - Make this folder with `$ mkdir ~/Developer/projects` for the first time
-  - Navigate from anywhere with `$ cd ~/Developer/projects`
+
+- This is a folder where you put all of your Ada projects
+- Make this folder with `$ mkdir ~/Developer/projects` for the first time
+- Navigate from anywhere with `$ cd ~/Developer/projects`
 
 ### `~/Developer/classroom`
-  - This is a folder where you put all of your notes, exercises, scratchwork, classroom activities, homework, etc
-  - Make this folder with `$ mkdir ~/Developer/classroom`
-  - Pick one of these two popular ways to organize your notes:
-    - Organize notes by week. They will have sub-folders nested in here, such as `~/Developer/classroom/week-1`
-    - Organize notes by topic. Recommended topic folder names are `git`, `cs-fun`, `ruby`, `rails`, `js`, `react`, so it is like `~/Developer/classroom/ruby`
+
+- This is a folder where you put all of your notes, exercises, scratchwork, classroom activities, homework, etc
+- Make this folder with `$ mkdir ~/Developer/classroom`
+- Pick one of these two popular ways to organize your notes:
+  - Organize notes by week. They will have sub-folders nested in here, such as `~/Developer/classroom/week-1`
+  - Organize notes by topic. Recommended topic folder names are `git`, `cs-fun`, `ruby`, `rails`, `js`, `react`, so it is like `~/Developer/classroom/ruby`
 
 Of course, feel free to not follow these recommendations if you have preferred ways of organizing files that will work for you better.
 
@@ -155,6 +158,7 @@ It is crucial for our careers as developers to practice using the terminal, and 
 We can make a commitment to ourselves to discover and learn more and more ways to use the command line, to help our development workflow become more and more robust.
 
 Some commands to learn include:
+
 - `man`
 - `mv`
 - `cat`
