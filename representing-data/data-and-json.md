@@ -8,9 +8,10 @@
 
 As we work with data, we may think, "How can this data get out of our code, and into someone else's code?"
 
-One way that programmers can parse and generate data that is largely compatible across languages is using the JSON data format. Getting exposure to JSON will help us visualize what our Python code may use one day.
 
-Additionally, learning about JSON may help expose us to how applications beyond Python may represent data.
+The JSON data format allows programmers to parse and generate data that is largely compatible across languages. Getting exposure to JSON will help us visualize what our Python code may use one day.
+
+Additionally, lessons from JSON exposes us to how applications beyond Python can represent data.
 
 ## Vocabulary and Synonyms
 
@@ -20,11 +21,11 @@ JSON | a lightweight data-interchange format that can hold objects, arrays, stri
 
 ## What is JSON?
 
-JSON is a specific kind of format that can hold and represent data. JSON does not belong to any specific programming language; JSON is used as one language-independent way to represent data. JSON uses conventions that are familiar to many programming languages, and can be used for machines to parse and generate.
+JSON is a specific kind of format that can hold and represent data. JSON does not belong to any specific programming language; JSON is one language-independent way to represent data. JSON uses conventions that are familiar to many programming languages, and is used for machines to parse and generate.
 
 JSON is purely text, but represents data as a combination of _ordered lists of values, or arrays,_ and _name/value pairs, or "objects."_
 
-Callout: JSON stands for "JavaScript Object Notation." This name implies that the format mimics how JavaScript objects look, as JSON was inspired by JavaScript standards. However, JSON is used today as a language-independent data format.
+Callout: JSON stands for "JavaScript Object Notation." JSON was inspired by JavaScript standards, and its syntax mimics some JavaScript patterns. However, JSON is used today as a language-independent data format.
 
 ### Example JSON
 
@@ -67,7 +68,7 @@ The array of markers contains three objects:
 
 In JSON, data structures can be nested within each other.
 
-Often, we use this nesting to see the implied _relationship_ between the pieces of data. This is not something always with a technical and perfect answer; this is often interpeted. It gives meaning to the data, especially for humans and computers who look at this data.
+Often, we use this nesting to see the implied _relationship_ between the pieces of data. Programmers interpret this data; there isn't necessarily one correct answer. It gives meaning to the data, especially for humans and computers who look at this data.
 
 When we look at how data can be nested in JSON, we can identify different data structures within it. The relationships expressed in JSON could potentially be:
 
@@ -77,7 +78,7 @@ When we look at how data can be nested in JSON, we can identify different data s
 - What data represents an object, or something with distinct ideas that can be name/value pairs?
 - What data is _alongside_ other pieces of data, on the same layer?
 
-With the above example, based on the nesting, we may come to these conclusions, depending on how we interpret the data:
+With the above example, we can come to the following conclusions:
 
 1. There are many markers, so the value of `"markers"` is an array
 1. Each marker has many pieces of related data, so each marker is an object.
