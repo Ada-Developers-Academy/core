@@ -11,12 +11,6 @@ As we see more and more problems in programming, we'll be faced with a lot of am
 
 As part of _breaking down a problem_, one step we should consider, take, and practice, is representing data we see as data structures. We want to practice the process of seeing given data described to us, and turning it into data structures like strings, lists, dictionaries, and more, in order to give us one possible starting point.
 
-## Vocabulary and Synonyms
-
-| Vocab | Definition | Synonyms | How to Use in a Sentence |
-| ----- | ---------- | -------- | ------------------------ |
-
-
 ## Recognizing Lists When Reading Problem Statements
 
 We want to be so familiar with lists, that even when we read an unfamiliar programming problem, we can make strong guesses about when to use a list.
@@ -66,9 +60,11 @@ Create a function. In this function:
 - Find the differences between the two sequences.
   - Add each difference to the list of differences.
 
-### Make Your Own Conclusions About Lists in Python Code
+### Make Your Own Conclusions About Lists in Problem Statements
 
-Share your notes about what you observed in the above problem statement. **What pieces of the problem statement** directly helped you make those conclusions?
+The ideal solution for the problem statement above uses lists.
+
+Did you come to that conclusion? If so, how? Share your notes about what you observed in the above problem statement. **What pieces of the problem statement** directly helped you make those conclusions?
 
 Learn Short Answer
 
@@ -84,7 +80,73 @@ Learn Short Answer
 | Mentions adding or removing an element to a list               | Lists are really great at growing and shrinking.                                                                                                                                                                                     | "The user should be able to add or remove any number of shopping items" "Remove any letter that isn't uppercase." "Add a book every time someone checks out a book."   |
 | Mentions the length of a list                                  | Lists can easily calculate its own length, and clues around constraints or freedoms around a list's length is a clue to use a list.                                                                                                  | "The grocery list should never be over 15 items." "An alphabet can have an infinite number of characters," "Check the number of books every time we check out a book." |
 
-## Summary
+## Recognizing Dictionaries When Reading Problem Statements
+
+We want to be so familiar with dictionaries, that even when we read an unfamiliar programming problem, we can make strong guesses about when to use a dictionary.
+
+To get to that familiarity, in this lesson, we will...
+
+1. Consider the strengths of dictionaries
+1. Read an example problem statement
+1. Write our own observations for how to recognize dictionaries
+1. Make conclusions about recognizing data and dictionaries in problem-solving
+
+### The Strengths of Dictionaries
+
+Considering the strengths of dictionaries as a data structure will give us clues to when dictionaries are very appropriate to consider.
+
+Dictionaries are great at...
+
+| Strength                                  | Notes                                                                                                                                                                                               | How it's represented in code |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| Data must be organized in key-value pairs | All data in dictionaries _must_ be in key-value pairs; there is no way to add a value without specifying a key                                                                                      | -                            |
+| Data is unordered                         | Dictionaries may sometimes appear to have an order, but there is no consistent ordering of key-value pairs. This is helpful to express that there isn't necessarily priority or importance to order | -                            |
+| Accessing values by using keys            | All values can be accessed by a key; this might have more meaning than accessing values by index, especially when keys are named intentionally                                                      | -                            |
+
+### An Example Problem Statement
+
+Imagine we are working on a research study that studies what color t-shirts people wear on Tuesdays. We've collected data on people passing by through the market, and the t-shirts we see per hour.
+
+Given this data, create two data structures.
+
+The first data structure should represent the data in the table below. The second data structure should represent the frequency of the color t-shirts at the end of Tuesday.
+
+| Time Of Day | T-shirts colors seen          |
+| ----------- | ----------------------------- |
+| 08:00       | red, orange, green            |
+| 09:00       | red, orange                   |
+| 10:00       | blue                          |
+| 11:00       | blue, green                   |
+| 12:00       | blue, gray                    |
+| 13:00       | red, blue                     |
+| 14:00       | white                         |
+| 15:00       | green, white                  |
+| 16:00       | white, black                  |
+| 17:00       | yellow, black                 |
+| 18:00       | white, green, gray, red, blue |
+
+### Make Your Own Conclusions About Dictionaries in Problem Statements
+
+For this problem statement, the ideal solution is to create two dictionaries.
+
+The first dictionary should have the time as the key, and the t-shirt colors seen in a list as the value.
+
+The second dictionary should have a t-shirt color as the key, and the frequency of that t-shirt color as the value.
+
+Did you come to the same conclusion? If so, how? Share your notes about what you observed in the above problem statement. **What pieces of the problem statement** directly helped you make those conclusions?
+
+Learn Short Answer
+
+### Our Conclusions About Dictionaries in Problem Statements
+
+| Observation                                                      | When it's related to dictionaries                                                                                                                                                                                                                                    | Examples |
+| ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| A close relationship between an idea and details about that idea | Using dictionary's key-value pairs, contextually, if the problem associates one idea very closely with details about that idea, we can make the idea the key, and the details the value.                                                                             | -        |
+| Using the word "table"                                           | Dictionaries are great at representing tabular data, especially if there is one column that can represent a key, and one column that represents its corresponding value                                                                                              | -        |
+| Using the word "map" or "translate"                              | Dictionaries can represent a mapping relationship. If there is some data that should be "mapped" or "translated" to another value, we can use a dictionary to represent that                                                                                         | -        |
+| Mentions of frequency                                            | Dictionaries are great structures to map some data to its frequency. In this situation, the data would be the key, and its frequency (as an integer that starts at `0`) is the value                                                                                 | -        |
+| Accessing values by key                                          | Dictionaries allow us to use keys as the primary way of accessing data. If two pieces of data have a close relationship, and contextually we may have more exposure to the key, we might want to use a dictionary. (Accessing data by value is a trickier operation) | -        |
+| Modifying values                                                 | Dictionaries allow us to modify the values to key-value pairs easily. If two pieces of data have a close relationship, and contextually we are modifying the value often, we might want to use a dictionary.                                                         | -        |
 
 ## Check for Understanding
 
