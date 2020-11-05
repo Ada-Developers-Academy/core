@@ -9,22 +9,20 @@
 
 As we see more and more problems in programming, we'll be faced with a lot of ambiguous direction. Exciting computer science problems will often have no obvious place to start. Should you make a function? How many variables? Do we need iteration?
 
-As part of _breaking down a problem_, one step we should consider, take, and practice, is representing data we see as data structures. We want to practice the process of seeing given data described to us, and turning it into data structures like strings, lists, dictionaries, and more, in order to give us one possible starting point.
+As part of _breaking down a problem_, one step we should consider, take, and practice, is representing data we see as data structures. To give ourselves a starting point in problem-solving, we can practice:
+- Observing the problem and data given to us
+- Turn these observations into data structures like strings, lists, dictionaries, and more
 
 ## Recognizing Lists When Reading Problem Statements
 
-We want to be so familiar with lists, that even when we read an unfamiliar programming problem, we can make strong guesses about when to use a list.
-
-To get to that familiarity, in this lesson, we will...
+To practice representing data as lists, we will...
 
 1. Consider the strengths of lists
 1. Read an example problem statement
-1. Write our own observations for how to recognize lists
-1. Make conclusions about recognizing data and lists in problem-solving
+1. Write our own observations
+1. Make conclusions
 
 ### The Strengths of Lists
-
-Considering the strengths of lists as a data structure will give us clues to when lists are very appropriate to consider.
 
 Lists are great at...
 
@@ -82,18 +80,14 @@ Learn Short Answer
 
 ## Recognizing Dictionaries When Reading Problem Statements
 
-We want to be so familiar with dictionaries, that even when we read an unfamiliar programming problem, we can make strong guesses about when to use a dictionary.
+To practice representing data as lists, we will...
 
-To get to that familiarity, in this lesson, we will...
-
-1. Consider the strengths of dictionaries
+1. Consider the strengths of lists
 1. Read an example problem statement
-1. Write our own observations for how to recognize dictionaries
-1. Make conclusions about recognizing data and dictionaries in problem-solving
+1. Write our own observations
+1. Make conclusions
 
 ### The Strengths of Dictionaries
-
-Considering the strengths of dictionaries as a data structure will give us clues to when dictionaries are very appropriate to consider.
 
 Dictionaries are great at...
 
