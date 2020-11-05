@@ -253,7 +253,7 @@ In this example, the `add` function is returning the value of the variable `sum`
 
 ### Return Statements End a Function Call
 
-Return statements **always** end and exit a function call. When a program reaches a return statement, it will **immediately** take the return value, and return back to the the line of code that invoked the function.
+Return statements **always** end and exit a function call. When a program reaches a return statement, it will **immediately** take the return value, and return back to the line of code that invoked the function.
 
 ![Monopoly Card that reads "ADVANCE TO GO (COLLECT $200)"](assets/defining-functions-return-monopoly.jpg)
 
@@ -455,4 +455,3 @@ def convert_to_fahrenheit(deg_celsius):
     result = (deg_celsius * 1.8) + 32
     return result
 ```
-
