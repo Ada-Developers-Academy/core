@@ -4,7 +4,7 @@
 
 A function is a reusable chunk of code. Every function is defined with a name and some logic.
 
-If, in a given project, we want to **define** our own reusable chunks of code, then we can define our own functions. Then, any code that has access to our functions can invoke them. To define a function, we must follow specific Python syntax.
+If, in a given project, we want to **define** our own reusable chunks of code, then we can define our own functions. Then, any code that has access to our functions can invoke them. To define a function, we must use specific Python syntax.
 
 ## Learning Goals
 
@@ -18,7 +18,7 @@ If, in a given project, we want to **define** our own reusable chunks of code, t
 | Function | Lines of code (1 or more) that are related, grouped together, and named. Once defined, these lines of code are reusable and can be called over and over again. | Method | "I defined a function," "I used a function," "I wrote a function"
 | Function definition, defining a function | How a function gets defined before it gets invoked | Function def, where the function is defined, a function you wrote | "I defined a function named `get_length`," "I defined the `get_length` function in this file," "I had bugs in my `get_length` function definition."
 | Function Signature | A piece of syntax. A part of the function definition that determines function name and the parameter list | Method signature | "We can read the name from the function signature," "The function signature tells us what parameters there are."
-| Parameter | The name of an expected argument for this function. This parameter name is the name of the local variable that will hold an argument value. Parameters and arguments at the time of function call are mapped positionally. | "Argument." Param. What is passed into a function. | "This function has one parameter named `items`," "There are 3 parameters for this function," "The function doesn't take any parameters"
+| Parameter | The name of an expected argument for this function. This parameter name is the name of the local variable that will hold an argument value. Parameters and arguments at the time of function call are mapped positionally. | Argument. Param. What is passed into a function. | "This function has one parameter named `items`," "There are 3 parameters for this function," "The function doesn't take any parameters"
 
 ## Every Function Has a Responsibility
 
@@ -39,7 +39,7 @@ For example, let's look at `len`:
 
 ### Considerations for Creating a Function
 
-Sometimes, we simply make functions because we need to, because someone asks us to, because the requirements or tests say so, because a library or tool we're using forces us to.
+Sometimes, we make functions because we need to, because someone asks us to, because the requirements or tests say so, because a library or tool we're using forces us to.
 
 Sometimes, we make functions because it makes our code more organized, readable, flexible, and higher quality.
 
@@ -49,10 +49,14 @@ How should we consider creating a function?
 
 Some considerations for creating a function:
 
-- Will creating a function reduce the repetition in my code? Is there a chunk of code that gets repeated over and over and over again?
-- Will creating a function here increase the readability of this code? Is this chunk of code too complex or specialized, and needs a name?
-- Will creating a function here better the organization of this code? Will my code be easier to navigate with this function?
-- Can this function be reused in the future? Will future developers also benefit from this function, and not just me?
+- Will creating a function reduce the repetition in my code?
+  - Is there a chunk of code that gets repeated over and over and over again?
+- Will creating a function here increase the readability of this code? 
+  - Is this chunk of code too complex or specialized, and needs a name?
+- Will creating a function here better the organization of this code? 
+  - Will my code be easier to navigate with this function?
+- Can this function be reused in the future? 
+  - Will future developers also benefit from this function, and not just me?
 
 In general, the wisdom of when to create functions comes with time. As learners, we will have a bias towards creating and writing functions freely as practice.
 
@@ -120,7 +124,7 @@ This is where functions define the **position** of their parameters.
 
 ### Naming Conventions for Naming Your Functions
 
-[PEP-8 (Pythonist's favorite resource for the preferred Python style)](https://www.python.org/dev/peps/pep-0008/#function-and-variable-names) describes the following for naming functions:
+[PEP-8 (Style Guide for Python Code)](https://www.python.org/dev/peps/pep-0008/#function-and-variable-names) describes the following for naming functions:
 
 - lowercase
 - words separated by underscores to help with readability
@@ -138,13 +142,18 @@ def calculate_bill(items, sales_tax, tip_percentage):
 ```
 
 Based on the function signature, are you able to tell or predict:
-- That it is a function? How are you able to tell?
+- That it is a function? 
+  - How are you able to tell?
 - The name of the function?
-- What the responsibility of this function is? How are you able to predict?
-- How many parameters it takes in? How are you able to tell?
-- What is the name of the first parameter? What is its implied meaning? What is its implied data type? How are you able to predict?
-    - ... for the second parameter?
-    - ... for the third parameter?
+- What the responsibility of this function is? 
+  - How are you able to predict?
+- How many parameters it takes in? 
+  - How are you able to tell?
+- Answer these questions for all three parameters:
+  - What is its name? 
+  - What is its implied meaning? 
+  - What is its implied data type? 
+  - How are you able to predict?
 
 
 ## Function Bodies: Python Logic Still Applies
@@ -165,7 +174,7 @@ The function body syntax has three things rules to keep in mind:
 
 Let's learn more details about parameters and return values, and then read some example function bodies.
 
-## Parameters Are Variables We Can Read. Arguments Determine Their Values.
+## Parameters Are Variables We Can Read; Arguments Determine Their Values.
 
 Every parameter is the name of a variable we can read in the function body.
 
@@ -226,7 +235,7 @@ add(15, 38)
 
 We define the return value of a function by writing a **return statement** in a function body. There are three rules to creating a return statement:
 
-1. Syntax: use the keyword `return`, and to the right of it should be an expression of the value to return
+1. Syntax: use the keyword `return`, followed by expression or value to return
 2. We can only return one value from a function every time it is invoked*
 3. When our program reaches a `return` statement, it will **end and exit the current function call**
 
@@ -239,7 +248,7 @@ The syntax to a return statement is this:
 return some_variable_or_expression_that_holds_the_return_value
 ```
 
-Here, `return` is a keyword, and to the right of it is some variable or expression that holds the return value.
+Here, `return` is a keyword, followed by some variable or expression to return.
 
 The return statement fits into a function body and gets its own separate line:
 ```python
