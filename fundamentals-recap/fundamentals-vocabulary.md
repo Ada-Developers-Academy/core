@@ -26,16 +26,16 @@ We use expressions mainly to get a _value_.
 
 The following are examples of expressions, because when our code runs, these turn into one value.
 
-| Expression | Value |
-| --- | --- |
-`42` | `42`
-`800 + 900` | `1700`
-`"Hello, World!"` | `"Hello, World!"`
-`True` | `True`
-`999 > 0` | `True`
-`999 <= 0` | `False`
-`999 == 0` | `False`
-`my_list[0]` | The first element of the list `my_list`
+| Expression        | Value                                   |
+| ----------------- | --------------------------------------- |
+| `42`              | `42`                                    |
+| `800 + 900`       | `1700`                                  |
+| `"Hello, World!"` | `"Hello, World!"`                       |
+| `True`            | `True`                                  |
+| `999 > 0`         | `True`                                  |
+| `999 <= 0`        | `False`                                 |
+| `999 == 0`        | `False`                                 |
+| `my_list[0]`      | The first element of the list `my_list` |
 
 Callout: For functions, we can interpret a function call used as an evaluated value as an expression.
 
@@ -47,12 +47,12 @@ We use statements mainly to _perform an action with side effects_.
 
 The following are examples of statements.
 
-| Statement | Side Effect
-| --- | ---
-`foo = "A value for foo"` | Assigns the variable `foo` to a value
-`return foo` | Exits a function, and optionally returns a value
-`if` statements | Begins a conditional clause
-`pass` | Statement to say "there is nothing to execute on this line of code"
+| Statement                 | Side Effect                                                         |
+| ------------------------- | ------------------------------------------------------------------- |
+| `foo = "A value for foo"` | Assigns the variable `foo` to a value                               |
+| `return foo`              | Exits a function, and optionally returns a value                    |
+| `if` statements           | Begins a conditional clause                                         |
+| `pass`                    | Statement to say "there is nothing to execute on this line of code" |
 
 Many of these statements use syntax that will be covered more in-depth with deeper knowledge.
 
@@ -66,19 +66,19 @@ Every value in Python has a data type.
 
 This is a list of all data types available in the Python programming language.
 
-| Data Type | Description |
-| --- | --- |
-Integer | Represents an integer! A whole number that is positive, negative, or zero.
-Float | Represents a number that isn't whole; it is fractional, or has a decimal place.
-String | Represents text, specifically with an ordered sequence of characters.
-Boolean | Represents true or false.
-None | Represents the concept of no value, or the absence of a value.
-List | An ordered list of values. Items in the list are sometimes called elements. Can get the value of an item by using square brackets and the index of the item.
-Dictionary | An unordered collection of key-value pairs. Can access values in the dictionary by using square brackets and the name of the key.
-Range | A sequence of numbers between a start, stop, and incrementing by a step.
-Tuple | An ordered, unchangeable collection of items.
-Set, frozenset | An unordered collection. Cannot access values with index or key; must use a loop.
-bytes, bytearray | A collection of binary digits (bits).
+| Data Type        | Description                                                                                                                                                  |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Integer          | Represents an integer! A whole number that is positive, negative, or zero.                                                                                   |
+| Float            | Represents a number that isn't whole; it is fractional, or has a decimal place.                                                                              |
+| String           | Represents text, specifically with an ordered sequence of characters.                                                                                        |
+| Boolean          | Represents true or false.                                                                                                                                    |
+| None             | Represents the concept of no value, or the absence of a value.                                                                                               |
+| List             | An ordered list of values. Items in the list are sometimes called elements. Can get the value of an item by using square brackets and the index of the item. |
+| Dictionary       | An unordered collection of key-value pairs. Can access values in the dictionary by using square brackets and the name of the key.                            |
+| Range            | A sequence of numbers between a start, stop, and incrementing by a step.                                                                                     |
+| Tuple            | An ordered, unchangeable collection of items.                                                                                                                |
+| Set, frozenset   | An unordered collection. Cannot access values with index or key; must use a loop.                                                                            |
+| bytes, bytearray | A collection of binary digits (bits).                                                                                                                        |
 
 Callout: We will not go into depth with tuples or sets in this curriculum, but they are interesting and useful data types. You are free to learn more and apply them; follow your curiosity!
 
@@ -184,4 +184,3 @@ print(f"Here is {pineapples}!")
 ```
 
 There are many other ways to combine strings and non-string values. Some methods include concatenation, or the `format()` method. Feel free to research these and use them; follow your curiosity!
-
