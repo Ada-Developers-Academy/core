@@ -19,9 +19,9 @@ Our problem-solving process includes:
 5. Write parts of the solution in Python code
 6. Repeat steps 4-6
 
-As our programs become more complicated, it becmoes harder to know where to get started, break down the steps that need to be done and and still write clean code.
+As our programs become more complicated, it becomes harder to know where to get started, break down the steps that need to be done, and write clean code.
 
-By breaking down the problem before writing code we can better prioritize what needs to be done and the steps involved to arrive at the minimum of what is needed to solve the problem.
+Breaking down a problem allows us to focus on what needs to be done and create steps to arrive at the minimum of what is needed to solve a problem. 
 
 Today we will focus on a strategy that can help us accomplish these steps: starting with pseudocode.
 
@@ -78,7 +78,7 @@ Which block of code is easier to read and understand the goal?
 
 Overall, it should be easier to read Example 1 and understand its goal because it has pseudocode, or understandable descriptions of code.
 
-Example 2 is full of working, functional code. However, sometimes, Example 2 is easier to read, because it's less information to parse through. However, this requires developers to know the precise syntax at the time of writing it.
+Example 2 is full of working, functional code. Sometimes, Example 2 is easier to read, because it has less information to parse through. However, this requires developers to know the precise syntax at the time of writing it.
 
 ### Pseudocode Can Be Any Style
 
