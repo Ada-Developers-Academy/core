@@ -129,7 +129,7 @@ If you've never organized that many files and folders, and don't have a preferen
 - Make this folder with `$ mkdir ~/Developer/classroom`
 - Pick one of these two popular ways to organize your notes:
   - Organize notes by week. They will have sub-folders nested in here, such as `~/Developer/classroom/week-1`
-  - Organize notes by topic. Recommended topic folder names are `git`, `cs-fun`, `ruby`, `rails`, `js`, `react`, so it is like `~/Developer/classroom/ruby`
+  - Organize notes by topic. Recommended topic folder names are `git`, `cs-fun`, `python`, `flask`, `js`, `react`, so it is like `~/Developer/classroom/python`
 
 Of course, feel free to not follow these recommendations if you have preferred ways of organizing files that will work for you better.
 
