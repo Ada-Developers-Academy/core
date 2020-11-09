@@ -287,7 +287,7 @@ is_number_odd(8, "This message will print, because the function does not hit a r
 Function bodies can be short.
 ```python
 def add(a, b):
-    return a+b
+    return a + b
 ```
 
 Function bodies can be long.
@@ -299,15 +299,15 @@ def add(a, b):
     print("Wow! Wow! Wow!")
     print("Wow! Wow!")
     print("Wow!")
-    return a+b
+    return a + b
 ```
 
 Function bodies can read their parameters and use them like variables. They can use these variables and determine a return value.
 ```python
 def add(a, b):
-    doubled_a = a*2
-    smaller_b = b-1
-    sum = a+b
+    doubled_a = a * 2
+    smaller_b = b - 1
+    sum = a + b
     print(f"Just for fun, I can print and use my variables {doubled_a} and {smaller_b}")
     return sum
 ```
@@ -327,7 +327,7 @@ def add(a, b):
             print("Jackpot!")
             return 777
 
-    return a+b
+    return a + b
 ```
 
 Function bodies can choose to not return anything, and will instead return `None`.
@@ -336,7 +336,7 @@ def add(a, b):
     print("I don't need to return anything.")
     print("If I don't, I'll return None automatically.")
     print("Instead, I'll just print some addition.")
-    print(a+b)
+    print(a + b)
     print("Great!")
     print("I did my job.")
     print("I'll get going now.")
