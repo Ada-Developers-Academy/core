@@ -147,9 +147,19 @@ python3 some_file.py
 
 If we forget to run our Python scripts with `python3`, there's a chance that the script runs as expected, and a chance that the script breaks or has bugs.
 
-Callout: "A lot of tutorials just use the `python` command to run Python scripts! Why? I'm not convinced that we need to use the `python3` command." One way to check if you need to use the `python3` command is to run two commands: `$ python --version` and `$ python3 --version`. If the output of these two commands differs (namely, `python` points to version 2), then we need to **avoid** using the `python` command.
+### !callout-info
 
-Callout: There are many methods to make shortcuts for the `python3` command, including terminal/bash aliases, and more. Follow your curiosity!
+## python3
+"A lot of tutorials just use the `python` command to run Python scripts! Why? I'm not convinced that we need to use the `python3` command." One way to check if you need to use the `python3` command is to run two commands: `$ python --version` and `$ python3 --version`. If the output of these two commands differs (namely, `python` points to version 2), then we need to **avoid** using the `python` command.
+
+### !end-callout
+
+### !callout-info
+
+## python3 
+There are many methods to make shortcuts for the `python3` command, including terminal/bash aliases, and more. Follow your curiosity!
+
+### !end-callout
 
 ## Continue Learning
 
