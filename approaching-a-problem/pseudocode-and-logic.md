@@ -235,7 +235,7 @@ end loop
 numbers = array, 3, 5, 6, 15, and 27
 num_of_even_nums = start at 0
 
-numbers.each |number| do
+for each number in numbers
   if the number is even
     then add 1 to number of even numbers
   else
@@ -250,7 +250,7 @@ end
 numbers = [3, 5, 6, 15, 27]
 num_of_even_nums = 0
 
-numbers.each do |number|
+for number in numbers
   if number % 2 == 0
     then add 1 to number of even numbers
   else
