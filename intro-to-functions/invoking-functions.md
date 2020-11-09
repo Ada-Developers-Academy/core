@@ -30,7 +30,7 @@ Python has defined a lot of functions for us to use, already. Let's look at some
 | --- | --- |
 | `len` | Based on the one given value, will calculate the length of the given value. The given value is typically either a string or list.
 | `print` | Based on one given value, will display the given value to the "standard output" (like the console, terminal, bash, etc) as best it can.
-| `randint` | Based on two given values, generate a random integer in the range between the first given value and the second given value
+| `random.randint` | Based on two given values, generate a random integer in the range between the first given value and the second given value
 | `time.time` | Calculates the number of seconds passed since [epoch. For Unix system, January 1, 1970, 00:00:00 at UTC is epoch (the point where time begins).](https://en.wikipedia.org/wiki/Unix_time)
 
 Callout: Technically, `time.time` is a function named `time` inside a module `time`. Also, `random.randint` is a function named `randint` inside of a module named `random`. We won't worry about these details yet! What this means for us today is we will sometimes need these two lines of code at the top: `import random` and/or `import time`
@@ -39,7 +39,8 @@ Callout: Going forward, because technically `time` and `randint` are the names o
 
 ## Invoke Functions with `function_name()`
 
-If we know a function's name, we know its responsibility, and we know we want to _invoke_ this function on a certain line of code, we use this syntax:
+Once we know a function's name and responsibility, we can invoke this function on a certain line of code. To do so, use this syntax:
+
 
 ```python
 function_name()
@@ -80,7 +81,7 @@ Functions can "take in" 0 arguments, 1 argument, 2 arguments, 3 arguments, or mo
 
 The `()` that we attached to the right of a name is actually how to invoke the function with _zero arguments._
 
-To invoke a function with one or more arguments, we need to include the arguments **comma-separated** and **inside the `()`s.**
+To invoke a function with one or more arguments, we need to include the arguments **separated by commas** and **inside the `()`s.**
 
 Let's look at those Python functions and the syntax for how to pass in arguments.
 
@@ -113,7 +114,8 @@ From the documentation, we should understand the following:
 - The documentation calls the **first** argument `a`, and the **second** argument `b`. This is determined next to the name of the method, `random.randint(a, b)`
 - The documentation says that the responsibility of this function relies on the logic of `a <= N <= b`. This means that the values of `a` should be the smallest number, and `b` should be the biggest number
 
-When using the `randint` method, our smallest number should be positioned as the **first** argument, and our largest number should be positioned as the **second** argument.
+When using the `randint` method, our smallest number should be positioned as the **first** argument, and our largest number should be positioned as the **second** argument. The output of this function will be a randomly generated integer between the values of a and b.
+
 
 ### Arguments Can Be Any Data Type
 
@@ -128,9 +130,9 @@ Arguments can be:
 - Literal values (such as `"apples"`)
 - variables (such as `apples`, where `apples = "apples"` in a previous line of code)
 
-In general, functions do not have rules what _data type_ our _arguments_ are. However... considering the _responsibility_ of each function, arguments usually have an _implied_ expected data type.
+In general, functions do not have rules about what _data type_ our _arguments_ are. However... considering the _responsibility_ of each function, arguments usually have an _implied_ expected data type.
 
-We should rely on documentation, context clues, and knowing the responsibility of a function, to infer what data type our arguments can or should be.
+We should rely on documentation, context clues, parameter names, and knowing the responsibility of a function, to infer what data type our arguments can or should be.
 
 ### Passing in the Wrong Number of Arguments
 
@@ -162,7 +164,7 @@ To debug, we should...
 1. find the line of code that calls this function
 1. adjust how we call the function, with the proper number of arguments passed in
 
-## Functions Return a Value Back to the Code that Invoked It
+## Functions Return a Value Back to the Code that Invoked Them
 
 Functions **_give back_** one value to the code that invoked the function. Often times, this value is the value that fulfills the function's responsibility.
 
@@ -183,9 +185,11 @@ Let's look at the return values for some functions we've observed, and some func
 
 Callout: `print`'s return value is always `None`! This is intentional. The people who defined `print` (aka Python) said that the responsibility of `print` is to return `None`.
 
-How do we figure out what a return value is or should be? The logic for determining the return value is inside of the function itself, so to figure out what the return value for any function is, we would need to...
+How do we figure out what a return value is or should be? 
 
-- look at how the function is defined, or
+The logic for determining the return value is inside of the function itself, so to figure out what the return value for any function is, we would need to do one of...
+
+- look at how the function is defined
 - read the function's documentation
 
 ### Calling Functions and Using Return Values is Our Job
@@ -196,7 +200,7 @@ Our logic will often rely on these return values of the functions we use.
 
 **Setting Up a Pattern:** We will often...
 1. _declare_ a variable
-1. then _assign_ that variable to the return value of a function, by invoking that function on the right-hand side of the assignment operator `=`.
+1. then invoke a function and _assign_ it to that variable on the right-hand side of the assignment operator (`=`).
 
 Read these lines of code:
 
@@ -207,7 +211,7 @@ details_length = len(kelseas_details)
 
 Our Python interpreter reads this line of code from left to right like so:
 
-1. On line 1, the _value_ of the _variable_ named `kelseas_details` is _assigned_ to the value on the right: a _list_ with two elements: `"Kelsea's Title"` and `"Kelsea's Job Description"`
+1. On line 1, the _variable_ named `kelseas_details` is _assigned_ the value on the right: a _list_ with two elements: `"Kelsea's Title"` and `"Kelsea's Job Description"`
 2. On line 2, the _value_ of the _variable_ named `details_length` is _assigned_ to the value on the right: `len(kelseas_details)`
     - What is the evaluated value of `len(kelseas_details)`? Well, we are _invoking_ the function `len`, passing in one argument: `kelseas_details`. The **return value** of `len(kelseas_details)` is `2`
     - Therefore, the variable `details_length` is _assigned_ to the value `2` (the return value of `len(kelseas_details)`)
@@ -225,9 +229,9 @@ We can only invoke and call functions after the function is defined.
 
 ### `NameError` on Undefined Functions
 
-The function `time` is technically part of a module named `time`, and the function is undefined until we import the `time` module.
+The function `time` is inside of the module named `time`, and the module (and thus the function) is undefined until we import the `time` module.
 
-In this example, we _call_ the function `time.time()` after we load (and therefore define) `time.time` with the line `import time`.
+In this example, we _call_ the function `time.time()` after we load (and therefore define) `time` module with the line `import time`.
 
 ```python
 import time

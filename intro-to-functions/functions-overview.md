@@ -119,7 +119,7 @@ We define and name functions. The logic that a function holds **never** executes
 
 Functions "take in" data.
 
-When we **"run the function"**, we can **pass in** data **into** the function.
+When we **run the function**, we can **pass** data **into** the function.
 
 This function **takes in** data. Then, the function uses the data inside of its logic.
 
