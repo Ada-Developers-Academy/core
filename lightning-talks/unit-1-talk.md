@@ -47,14 +47,16 @@ Some topics can only be researched after a certain topic is taught.
 
 Present any time during Unit 1:
 
+- Define List comprehensions in Python
+- Define tuples and sets in Python
+- Define slicing in Python
+- Define ternary operator
+- Define short-circuiting in Python
 - Define DRY (Don't Repeat Yourself)
 - Define YAGNI (You aren't gonna need it)
 - Define assembly language
 - Define immutability
 - Define Command-query separation
-- Define List comprehensions in Python
-- Define tuples and sets in Python
-- Define slicing in Python
 - Define Regular Expressions
 - Describe common matchers and patterns used in regular expressions
 - Compare programming languages between compiled vs. interpreted
@@ -65,8 +67,6 @@ Present any time during Unit 1:
 - Define XML, compare XML and JSON
 - Describe how to read and write from any file in Python
 - Define CSV, compare CSV with other kinds of persistent data storage
-- Define ternary operator
-- Define short-circuiting in Python
 
 Present after Intro to Object-Oriented Programming:
 
