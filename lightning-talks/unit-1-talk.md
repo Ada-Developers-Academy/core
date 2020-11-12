@@ -65,6 +65,8 @@ Present any time during Unit 1:
 - Define XML, compare XML and JSON
 - Describe how to read and write from any file in Python
 - Define CSV, compare CSV with other kinds of persistent data storage
+- Define ternary operator
+- Define short-circuiting in Python
 
 Present after Intro to Object-Oriented Programming:
 
