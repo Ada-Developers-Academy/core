@@ -1,15 +1,29 @@
 # Unit 1 Talk
 
-## Logistics and Requirements
+## Goal
 
-- No more than 5 minutes
-- Presentations over 5 minutes will be gently cut off
+Your goal is to create and deliver a lightning talk presentation on a given topic! You will be teaching a topic that extends our knowledge! Your audience will be your other cohortmates.
+
+## Requirements about the Presentation
+
+Your presentation will be about one of the topics listed below. Follow classroom instructions to get your topic.
+
+Requirements about your presentation:
+
+- No more than 5 minutes (Presentations over 5 minutes will be gently cut off)
+- Slides are required (even if it is one slide)
 - Video and audio are allowed, but must fit within the time limit
 - Props and costumes are allowed
 
-### Required Presentation
+In your presentation, please cover the following topics if they're relevant:
 
-- Presentation slides are required (even if it is one slide)
+- Definition of the topic
+- Examples
+- Syntax
+- When would we use this?
+
+Finally, before you submit your presentation:
+
 - Include your name and pronouns in the first slide
 - Your presentation must be uploaded to the Internet so that instructors can view it
   - We recommend using Google Slides, and setting the sharing permissions to "Anyone on the internet with this link can view"
@@ -23,24 +37,13 @@
 - Make it personal, fun, and weird
 - Be yourself
 
-## Required Topic
-
-Sign up for one of the topics below. Your audience will be your other cohortmates. Your goal is to teach one of these topics that extends our Unit 1 knowledge!
-
-In your presentation, please cover the following topics if they're relevant:
-
-- Definition of the topic
-- Examples
-- Syntax
-- When would we use this?
-
 ### Timing
 
 Presentations will happen on a rolling basis, refer to your class schedule for these presentation dates.
 
-Some topics can only be researched after a certain topic is taught. If you sign up for one of these topics, beware! Your presentation may be scheduled for later, but it means that you have to wait before you can begin this presentation.
+Some topics can only be researched after a certain topic is taught.
 
-### Topics
+## Topics
 
 Present any time during Unit 1:
 
@@ -71,3 +74,5 @@ Present after Intro to Object-Oriented Programming:
 - Define Interface pattern
 - Define Decorator pattern
 - Define Abstract class
+
+## Submit
