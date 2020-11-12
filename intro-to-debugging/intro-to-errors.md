@@ -49,8 +49,10 @@ Syntax errors are often caused by things such as:
 - missing a keyword
 - missing a colon
 - missing the end of a brace, like `)`, `}`, `]`, etc
-- mispelling something
+- misspelling something
 - accessing a list or dictionary with the wrong syntax
+- unmatching indentation levels
+- mixed-use of tabs or spaces 
 
 To debug syntax errors, we should review the syntax in our code, and compare it to the syntax that Python is looking for.
 
