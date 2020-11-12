@@ -53,7 +53,7 @@ Present any time during Unit 2:
 - Define wifi
 - Define Internet browsers
 - Define Internet cabling and ISP
-- Define modem and browser, compare modem and browser
+- Define modem and router, compare modem and router
 - Describe the four layers of internet: Application, transport, network, link
 - Define web servers and packets
 - Define IP Addresses (IPv4)
