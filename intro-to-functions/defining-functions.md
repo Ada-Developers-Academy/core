@@ -26,10 +26,14 @@ Remember, functions do things, and have a responsibility to do certain things wh
 
 Before we create a function, we should do our best to determine:
 
-1. What is the kind of logic you want to put into a function? What is this function _responsible for doing_?
-1. What is the best name for this function? Ideally, the name of the function implies the responsibility of this function.
-1. What kind of arguments should the function take in? How many arguments?
-1. What one piece of data should the function return? What is its data type, and what does it represent?
+1. What is the kind of logic you want to put into a function?
+    - What is this function _responsible for doing_?
+1. What is the best name for this function? 
+    - Ideally, the name of the function implies the responsibility of this function.
+1. What kind of arguments should the function take in? 
+    - How many arguments?
+1. What one piece of data should the function return? 
+    - What is its data type, and what does it represent?
 
 For example, let's look at `len`:
 - The responsibility of the `len` function is to return the length of a given value
@@ -236,10 +240,8 @@ add(15, 38)
 We define the return value of a function by writing a **return statement** in a function body. There are three rules to creating a return statement:
 
 1. Syntax: use the keyword `return`, followed by expression or value to return
-2. We can only return one value from a function every time it is invoked*
+2. We can only return one value from a function every time it is invoked
 3. When our program reaches a `return` statement, it will **end and exit the current function call**
-
-Callout: Technically, Python allows us to return multiple things from a function. This is beyond the scope of our learning right now. In general, and consistent with the vast majority of programming languages, we can assume that our functions return only one value at a time.
 
 ### Syntax to Return Statements
 

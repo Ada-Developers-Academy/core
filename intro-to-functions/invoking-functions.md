@@ -22,7 +22,12 @@ A function is a reusable chunk of code. Every function is defined with a name an
 
 Functions do things, and have a responsibility to do things when they are _invoked_.
 
-It will be easiest for us to use functions in the future when we understand what the _responsibility_ of each function is when we use it. We should describe what each function is supposed to be doing, and understand what "goes into" a function, gets computed inside of a function, and "goes out" of a function before we use it.
+We should fully understand the *responsibility* of each function when we use it. Before using a function, we should be able to describe the following:
+
+* the purpose of the function
+* the data that *'goes into'* the function
+* the computations inside of the function
+* the data that *'goes out'* of the function
 
 Python has defined a lot of functions for us to use, already. Let's look at some Python functions and their responsibilities.
 
@@ -225,7 +230,7 @@ We should and will use those return values as:
 
 ## Order Matters: Invoke Functions After It's Defined
 
-We can only invoke and call functions after the function is defined.
+We can only invoke functions after the function is defined.
 
 ### `NameError` on Undefined Functions
 
