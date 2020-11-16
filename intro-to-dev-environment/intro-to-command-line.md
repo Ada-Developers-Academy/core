@@ -186,3 +186,39 @@ Terminal and some commands bring us to different text editors. If you're ever ta
 Try using the up and down arrows to scroll, and tapping the key `q` to quit.
 
 ## Check for Understanding
+
+## Check for Understanding
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 0d18747d-94a0-4136-85b1-49a1308ef647
+* title: The command line 
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+What is the command line? 
+
+##### !end-question
+
+##### !options
+
+* The interface where developers type in commands into a terminal
+* The top-most folder that exists on a machine
+* a program that runs commands
+
+##### !end-options
+
+##### !answer
+
+* The interface where developers type in commands into a terminal
+
+##### !end-answer
+
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
