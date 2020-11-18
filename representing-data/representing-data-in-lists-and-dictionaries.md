@@ -54,7 +54,7 @@ CATCGTAATGACGGCCT
 
 Create a function. In this function:
 
-- Make a list that contains will contain all of the differences between the two sequences.
+- Make a list that contains all the differences between the two sequences.
 - Find the differences between the two sequences.
   - Add each difference to the list of differences.
 
@@ -141,4 +141,3 @@ Learn Short Answer
 | Mentions of frequency                                            | Dictionaries are great structures to map some data to its frequency. In this situation, the data would be the key, and its frequency (as an integer that starts at `0`) is the value                                                                                 | -        |
 | Accessing values by key                                          | Dictionaries allow us to use keys as the primary way of accessing data. If two pieces of data have a close relationship, and contextually we may have more exposure to the key, we might want to use a dictionary. (Accessing data by value is a trickier operation) | -        |
 | Modifying values                                                 | Dictionaries allow us to modify the values to key-value pairs easily. If two pieces of data have a close relationship, and contextually we are modifying the value often, we might want to use a dictionary.                                                         | -        |
-
