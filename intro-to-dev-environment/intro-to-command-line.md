@@ -183,7 +183,7 @@ Terminal and some commands bring us to different text editors. If you're ever ta
 - there is a `:` on the bottom line
 - `ctrl+c` does not exit this screen
 
-Try using the up and down arrows to scroll, and tapping the key `q` to quit.
+Try using the up and down arrows to scroll, and tapping the `q` or `esc` key to quit.  If you're ever in this situation, one of macOS's default text editors, [`vim`](https://en.wikipedia.org/wiki/Vim_(text_editor) is at play here! See more vim commands [with this vim resource](https://devhints.io/vim).
 
 ## Check for Understanding
 
