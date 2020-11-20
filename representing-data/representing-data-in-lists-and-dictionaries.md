@@ -127,9 +127,23 @@ The first dictionary should have the time as the key, and the t-shirt colors see
 
 The second dictionary should have a t-shirt color as the key, and the frequency of that t-shirt color as the value.
 
-Did you come to the same conclusion? If so, how? Share your notes about what you observed in the above problem statement. **What pieces of the problem statement** directly helped you make those conclusions?
+### !challenge
+* type: short-answer
+* id: 9523c54f-fd25-4dcf-be14-4d5a9ff33d43
+* title: What were your conclusions about dictionaries?
 
-Learn Short Answer
+##### !question
+Did you come to the same conclusion? If so, how? Share your notes about what you observed in the above problem statement. **What pieces of the problem statement** directly helped you make those conclusions?
+##### !end-question
+
+##### !placeholder
+Enter notes here
+##### !end-placeholder
+
+##### !answer
+/.*/
+##### !end-answer
+### !end-challenge
 
 ### Our Conclusions About Dictionaries in Problem Statements
 
