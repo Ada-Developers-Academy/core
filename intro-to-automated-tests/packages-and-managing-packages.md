@@ -38,7 +38,10 @@ Popular Python packages include:
 
 **Example:** Nella may be working on a project where she builds a birthday calendar, and she needs to find out how many days there are until her birthday. Nella finds that dates, times, and time zones in Python are tricky to work with. Of course, she could write all of this logic herself! Or... she could find a package that provides functionality and structure around counting down dates.
 
-Callout: Technically, we can say a package is a collection of Python modules, and every `.py` file is a module!
+### !callout-info
+## Packages and Modules
+Technically, we can say a package is a collection of Python modules, and every `.py` file is a module!
+### !end-callout
 
 ### Where Do Packages Come From?
 
@@ -130,5 +133,4 @@ Possibly another checklist:
 - run `pip3 list`
 
 ## Check for Understanding
-
 

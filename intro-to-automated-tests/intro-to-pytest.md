@@ -25,7 +25,11 @@ We can install (and upgrade) the `pytest` package with this command:
 pip3 install -U pytest
 ```
 
+### !callout-danger
+## pip3
 Callout in Red: Recall that we use `pip3` to designate `pip` for Python3.
+### !end-callout
+
 
 ## Reworking Our Project Structure
 
@@ -140,7 +144,11 @@ Read through these example `assert` statements as passing examples that prove we
 1. `assert "dragon" in "Once upon a time, there was a dragon queen..."`
 1. `assert "foo" not in "Once upon a time, there was a dragon queen..."`
 
-Callout: `is`, `not`, `is not`, and `in` are operators in Python. `is` returns true if both sides evaluate to the exact same object in memory. Feel free to keep diving into these operators!
+### !callout-info
+## Python Operators
+`is`, `not`, `is not`, and `in` are operators in Python. `is` returns true if both sides evaluate to the exact same object in memory. Feel free to keep diving into these operators!
+### !end-callout
+
 
 Tests should include at least one `assert` statement. There can be multiple assertions in a test.
 

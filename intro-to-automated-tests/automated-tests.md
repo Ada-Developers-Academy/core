@@ -65,7 +65,11 @@ What happens if the function receives `None` for time? | `"January 1, 1980"`, `"
 What happens if the `date` argument comes as a different format? | `"1980-01-01"`, `"Seattle"`, `"12:00"` | `{"Sun": "Capricorn", ...}`
 What happens if the function receives an empty string for `location`? | `"January 1, 1980"`, `"Seattle"`, `"12:00"` | should raise an exception
 
-Callout: There are countless more scenarios to anticipate! How many scenarios do we need to anticipate? In general, the answer to this question depends on the code you're testing. If there are a lot of conditions in the function, with a lot of different kinds of `return` values, we may have a test for one or two examples each of those `return` values.
+### !callout-info
+## Testing Scenarios
+There are countless more scenarios to anticipate! How many scenarios do we need to anticipate? In general, the answer to this question depends on the code you're testing. If there are a lot of conditions in the function, with a lot of different kinds of `return` values, we may have a test for one or two examples each of those `return` values.
+### !end-callout
+
 
 ## When We Have Trustworthy Tests, Everyone Wins
 
