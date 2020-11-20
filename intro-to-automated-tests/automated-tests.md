@@ -12,10 +12,10 @@ Have you ever worked on a function, and it runs, but you weren't sure if it was 
 
 ## Vocabulary and Synonyms
 
-| Vocab | Definition | Synonyms | How to Use in a Sentence
-| --- | --- | --- | ---
-Automated Test |
-Unit Test |
+Vocab | Definition| Synonyms| How to Use in a Sentence
+-----|-----|-----|-----
+Automated Test| Scripts that test specific code for correct functionality| Test | "As the application grows, we need to ensure the automated tests also scale."
+Unit Test | Scripts designed to test the performance of a single function | Test Case | "Did the new feature pass the unit tests?" |
 
 ## Automated Tests Verify Code Correctness
 
@@ -48,7 +48,7 @@ Programmers run tests to get test output. For each test, it will either pass, fa
 
 ### Unit Tests Are for Small Units
 
-Because there are a lot of different kinds of code, there are a lot of different kinds of tests. One kind is unit testing. Unit tests are automated tests focus on a unit, which is commonly a single function. They're used to check that given some specific arguments, the function returns some expected value.
+Because there are a lot of different kinds of code, there are a lot of different kinds of tests. One kind is unit testing. Unit tests are automated tests that focus on a unit, which is commonly a single function. They're used to check that given some specific arguments, the function returns some expected value.
 
 **Example:** Addison has a function called `calculate_chart`, which takes in 3 parameters: `date`, `location`, and `time`. They can write unit tests for this function.
 
@@ -93,4 +93,3 @@ To incorporate testing into our development workflow, our workflow may adjust to
 4. Implement the code to make that test pass
 5. Create `git` commits when appropriate (at least one)
 6. Repeat!
-

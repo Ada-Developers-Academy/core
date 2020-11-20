@@ -96,7 +96,7 @@ FAILED tests/test_somefile.py::test_true_is_false - assert True is False
 ```
 
 1. `test session starts` will print some facts about the tests, like how many tests there are. There will be a series of `.`s for passing tests, and `F` for failing tests.
-1. `FAILURES` will being a section to print any tests that failed, the names of the test and what file and line it's on, and how these tests failed.
+1. `FAILURES` will print any tests that failed, the names of the test and what file and line it's on, and how these tests failed.
 1. `short test summary info` will print a short test summary info, including overall how many tests passed or failed, and how long the tests took to run.
 
 ## Anatomy of a Unit Test
