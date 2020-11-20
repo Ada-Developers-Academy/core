@@ -26,7 +26,12 @@ An error in programming is when a program does unexpected things. Errors are oft
 
 Errors and bugs can cause all sorts of problems, like programs halting and ending prematurely. When a program comes to a halt because of an error, we say that it has crashed.
 
-Callout: The term "bug" comes from some interesting history! In 1947, Grace Hopper recorded the first bug. As she and her team worked on the Harvard Mark II, which is an old-school computer that read instructions from physical tapes, there was an error. After some investigating, the team found that the source of the problem was a _**literal bug**_ that got stuck on one of the tapes!
+### !callout-info
+
+## The Origin of `Bugs`
+The term "bug" comes from some interesting history! In 1947, Grace Hopper recorded the first bug. As she and her team worked on the Harvard Mark II, which is an old-school computer that read instructions from physical tapes, there was an error. After some investigation, the team found that the source of the problem was a _**literal bug**_ that got stuck on one of the tapes!
+
+### !end-callout
 
 ## Three Kinds of Errors
 
@@ -85,7 +90,12 @@ Logical errors can happen for an infinite number of reasons, but here are some c
 - not having the correct conditional checks
 - [off-by-one errors](https://en.wikipedia.org/wiki/Off-by-one_error)
 
-Callout: As programmers, we will copy and paste a lot. However, when we carelessly copy and paste code, it can often lead to a lot of logical errors. Take care when you copy and paste and be sure to update all of the variable names and syntax... Or even try to type out the code entirely, to help slow you down and follow along!
+### !callout-danger
+
+## Be Careful!
+As programmers, we will copy and paste a lot. However, when we carelessly copy and paste code, it can often lead to a lot of logical errors. Take care when you copy and paste and be sure to update all of the variable names and syntax... Or even try to type out the code entirely, to help slow you down and follow along!
+
+### !end-callout
 
 ## Check for Understanding
 

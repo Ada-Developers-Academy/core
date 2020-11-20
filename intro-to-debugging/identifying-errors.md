@@ -49,7 +49,13 @@ Traceback (most recent call last):
 ZeroDivisionError: division by zero
 ```
 
-Callout: Let's consider briefly **where** we see error messages, and in general all output. Right now, when we run Python code from the terminal, we see the output in the terminal. That's because our computers and terminals have configured a [standard stream for output](https://en.wikipedia.org/wiki/Standard_streams), or an "output channel." The output channel, or standard stream for output, for the terminal is the terminal itself by default.
+```suggestion
+### !callout-info
+## Terminal
+Let's consider briefly **where** we see error messages, and in general all output. Right now, when we run Python code from the terminal, we see the output in the terminal. That's because our computers and terminals have configured a [standard stream for output](https://en.wikipedia.org/wiki/Standard_streams), or an "output channel." The output channel, or standard stream for output, for the terminal is the terminal itself by default.
+
+We introduce this idea briefly because one day, the standard stream may change. :)
+### !end-callout
 
 We introduce this idea briefly because one day, the standard stream may change. :)
 
@@ -109,7 +115,10 @@ The details of these subroutines are typically hidden in high-level programming 
 
 The call stack, sometimes called "the stack," is a data structure that stores information about all the subroutines that start or finish. When a subroutine starts, the call stack _pushes_ information about that onto the stack. When a subroutine finishes, the call stack _pops_ that information off the stack.
 
-Callout: This is where the phrase "stack overflow" comes from!
+### !callout-info
+## Fun Fact 
+This is where the phrase "stack overflow" comes from!
+### !end-callout
 
 ## Finding The Good Stuff: How to Read Error Messages
 
