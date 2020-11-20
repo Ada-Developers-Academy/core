@@ -49,7 +49,6 @@ Traceback (most recent call last):
 ZeroDivisionError: division by zero
 ```
 
-```suggestion
 ### !callout-info
 ## Terminal
 Let's consider briefly **where** we see error messages, and in general all output. Right now, when we run Python code from the terminal, we see the output in the terminal. That's because our computers and terminals have configured a [standard stream for output](https://en.wikipedia.org/wiki/Standard_streams), or an "output channel." The output channel, or standard stream for output, for the terminal is the terminal itself by default.
