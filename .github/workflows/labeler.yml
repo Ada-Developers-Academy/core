@@ -1,12 +1,12 @@
 name: Labeler
-on: [pull_request]
+on: pull_request
 
 jobs:
   label:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/labeler@v2
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+      - name: PR-Labeller
+        uses: actions/labeler@v2
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          configuration-path: .github/labeler-01.yml
