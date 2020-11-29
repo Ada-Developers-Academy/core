@@ -3,3 +3,6 @@
 - :Section: "Unit 1"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
+- :Section: "Lightning Talks"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
