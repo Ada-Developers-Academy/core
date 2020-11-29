@@ -48,7 +48,12 @@ for field_item in ["grass", "grass", "more grass", "four-leaf clover", "rocks", 
     print("Better keep looking.")
 ```
  
-Callout: Turns out we can pair a `for` loop with an `else` clause! The `else` clause will run after a `for` loop finishes **if** it did **not** encounter a `break`. The `else` is on the same level of indentation as the `for`.
+### !callout-info
+
+## for-else
+Turns out we can pair a `for` loop with an `else` clause! The `else` clause will run after a `for` loop finishes **if** it did **not** encounter a `break`. The `else` is on the same level of indentation as the `for`.
+
+### !end-callout
 
 ```python
 for field_item in ["grass", "grass", "more grass", "rocks", "rocks", "more rocks"]:
@@ -122,5 +127,4 @@ print("Blast off!")
 ```
 
 ## Check for Understanding
-
 

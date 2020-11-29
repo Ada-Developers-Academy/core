@@ -126,7 +126,7 @@ print("That sure was a meal!")
 
 ## Variable Scope
 
-Inside `for` loops, we still can access and use any variables that are within scope.
+Inside `for` loops, we can access and use any variables that are within scope.
 
 A common pattern we'll use is to initialize a variable before a `for` loop, and modify it within a `for` loop.
 
@@ -179,5 +179,4 @@ consider_options(pizza_places)
 We can also put loops inside of loops! We will explore that in a future lesson.
 
 ## Check for Understanding
-
 

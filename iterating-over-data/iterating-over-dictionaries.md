@@ -135,7 +135,7 @@ for my_key in my_dict:
 
 This syntax only names a local variable `my_key`, which will be each key, and does not require us to call `.items()` on our dictionary.
 
-We can see in this example, our code does not raise a `ValueError` when we use this syntax! Of course, we can access the 
+We can see in this example, our code does not raise a `ValueError` when we use this syntax! Of course, we can access the keys and values.
 
 ```python
 menu = {
@@ -147,7 +147,10 @@ for dish in menu:
     print(f"The special {dish} for tonight is the {menu[dish]}.")
 ```
 
-Callout: If this syntax accomplishes the same thing, which `for` loop style should we prefer? It is always up to the developer, but most Python developers prefer having keys and values available and iterating with `.items()`.
+### !callout-info
+## Loop Styles
+If this syntax accomplishes the same thing, which `for` loop style should we prefer? It is always up to the developer, but most Python developers prefer having keys and values available and iterating with `.items()`.
+### !end-callout
 
 ## Iterating With `.keys()` or `.values()`
 
@@ -172,7 +175,10 @@ for category in menu.keys():
 print(categories)
 ```
 
-Callout: For this example, alternatively, we could have printed the categories inside the for loop. We thought it would be nice to see this pattern again, as it accomplishes something slightly different.
+### !callout-info
+## Loop Patterns
+For this example, alternatively, we could have printed the categories inside the for loop. We thought it would be nice to see this pattern again, as it accomplishes something slightly different.
+### !end-callout
 
 Dictionaries also have a method `.values()`, which returns a list of every value in the dictionary!
 
@@ -196,5 +202,4 @@ print(special_dishes)
 ```
 
 ## Check for Understanding
-
 
