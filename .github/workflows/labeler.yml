@@ -1,4 +1,11 @@
-name: Test-Labeler
+# This workflow will triage pull requests and apply a label based on the
+# paths that are modified in the pull request.
+#
+# To use this workflow, you will need to set up a .github/labeler.yml
+# file with configuration.  For more information, see:
+# https://github.com/actions/labeler
+
+name: Labeler
 on: 
   pull_request_target:
     types: [opened]
@@ -11,31 +18,45 @@ jobs:
     steps:
     - uses: actions/github-script@v3
       with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        github-token: "${{ secrets.GITHUB_TOKEN }}"
         script: |
-          # Get PR description
-          var body = context.payload.pull_request.body
+          // Get PR description
+          const msg = context.payload.pull_request.title;
+           
+          class AdaPullRequest {
+            constructor(label, column_id) {
+              this.label = label;
+              this.column_id = column_id;
+            }
 
-          if (body) {
-            var inDevelopment = body.contains("In Development")
+            addLabel() {
+              github.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: [this.label] 
+              })
+            }
+
+            addToProjectBoard() {
+              github.projects.createCard({
+                column_id: this.column_id,
+                content_type: 'PullRequest',
+                content_id: context.payload.pull_request.id
+              })
+            }
           }
-
-          # Add label for in-development PRs
-          if (inDevelopment) {
-            github.issues.addLabels({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              labels: ["needs input"] 
-            })
+          
+          if(msg) {
+            const inDevelopment = msg.includes("In Development");
+            
+            if(inDevelopment) {
+              const developmentPullRequest = new AdaPullRequest("needs input", 11161006)
+              developmentPullRequest.addLabel();
+              developmentPullRequest.addToProjectBoard();
+            } else {
+              const generalPullRequest = new AdaPullRequest("ready for review", 11161002)
+              generalPullRequest.addLabel();
+              generalPullRequest.addToProjectBoard();
+            }
           } 
-          else {
-            # Add label to new general PRs
-            github.issues.addLabels({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              labels: ["ready for review"] 
-            })
-          }
-         
