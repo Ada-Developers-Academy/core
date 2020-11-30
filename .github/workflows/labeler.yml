@@ -1,12 +1,41 @@
-name: Labeler
-on: pull_request
+name: Test-Labeler
+on: 
+  pull_request_target:
+    types: [opened]
 
 jobs:
   label:
+    name: add label to new PRs
     runs-on: ubuntu-latest
+
     steps:
-      - name: Labeler
-        uses: actions/labeler@v3
-        with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          configuration-path: .github/labels.yml
+    - uses: actions/github-script@v3
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        script: |
+          # Get PR description
+          var body = context.payload.pull_request.body
+
+          if (body) {
+            var inDevelopment = body.contains("In Development")
+          }
+
+          # Add label for in-development PRs
+          if (inDevelopment) {
+            github.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ["needs input"] 
+            })
+          } 
+          else {
+            # Add label to new general PRs
+            github.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ["ready for review"] 
+            })
+          }
+         
