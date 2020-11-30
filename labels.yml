@@ -1,0 +1,3 @@
+ready-for-review:
+  - any: ['./*']
+  - any: ['./src/*']
