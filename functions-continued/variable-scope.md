@@ -180,7 +180,12 @@ In this example, `breakfast_message` is a global variable, because it was declar
 
 Because global variable scope is so large and so powerful, global variable scope gives programmers more opportunities to create bugs. Over time, observe what tools and strategies are introduced to help lower this risk!
 
-Callout: Technically, Python has one specific rule about global variables: we can **read** global variables anywhere. However, **declaring** global variables inside of a function is a little trickier. We discourage declaring global variables inside of functions! Programmers discourage it so much, that this curriculum won't even teach you how to do it! Feel free to look this up. A search engine term to use could be "Python use global variables".
+### !callout-info
+
+## Variables Best Practices
+Technically, Python has one specific rule about global variables: we can **read** global variables anywhere. However, **declaring** global variables inside of a function is a little trickier. We discourage declaring global variables inside of functions! Programmers discourage it so much, that this curriculum won't even teach you how to do it! Feel free to look this up. A search engine term to use could be "Python use global variables".
+
+### !end-callout
 
 ## We Use Variable Scope To Solve Problems
 
