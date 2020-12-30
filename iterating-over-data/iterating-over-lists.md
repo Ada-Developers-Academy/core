@@ -99,11 +99,11 @@ for option in options:
     print(f"What about getting food from {option} tonight?")
 ```
 
-| iteration # | index of `option` | value of `option`
-| --- | --- | ---
-| 1 | 0 | `"the place I'm craving but is too far away"`
-| 2 | 1 | `"the place we always go to"`
-| 3 | 2 | `"that place that just opened but looks too fancy"`
+| iteration # | <div style="width: 80px;">index of `option`</div> | <div style="width: 100px;">value of `option`</div> | print output 
+| --- | --- | --- | --- 
+| 1 | 0 | `"the place I'm craving but is too far away"` | `"What about getting food from the place I'm craving but is too far away tonight?"`
+| 2 | 1 | `"the place we always go to"` | `"What about getting food from the place we always go to?"`
+| 3 | 2 | `"that place that just opened but looks too fancy"` | `"What about getting food from that place that just opened but looks too fancy?"`
 
 **Another Example:**
 
@@ -179,4 +179,28 @@ consider_options(pizza_places)
 We can also put loops inside of loops! We will explore that in a future lesson.
 
 ## Check for Understanding
+<!-- Question 1 -->
 
+<!-- prettier-ignore-start -->
+### !challenge
+* type: multiple-choice
+* id: e45acb1f-5be4-4f87-b6d2-60831f03d620
+* title: Loop Review
+
+##### !question
+Loops can iterate through which of these options below?
+##### !end-question
+
+##### !options
+* Lists
+* Strings
+* Code blocks
+* All of the above
+##### !end-options
+
+##### !answer
+* All of the above
+##### !end-answer
+
+### !end-challenge
+<!-- prettier-ignore-end -->

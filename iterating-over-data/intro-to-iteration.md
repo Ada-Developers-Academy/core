@@ -60,5 +60,33 @@ We can use iteration to do operations like...
 There are so many other things that lists are great at, so we'll need to keep exploring over time.
 
 ## Check for Understanding
+<!-- Question 1 -->
 
+<!-- prettier-ignore-start -->
+### !challenge
+* type: checkbox
+* id: dfc8fa62-40c7-4489-8ab3-f91eb5c67579
+* title: Iteration Examples
+##### !question
+Iteration is useful in many scenarios. Mark each scenario that utilizes iteration.
+##### !end-question
+
+##### !options
+* Looking through items in an online shopping cart, and adding the cost of each item to the total. 
+* Looking through a list of sales transactions, and finding the highest grossing sales transaction of the day.
+* Looking through a clean laundry basket, and finding matching pairs!
+##### !end-options
+
+##### !answer
+* Looking through items in an online shopping cart, and adding the cost of each item to the total. 
+* Looking through a list of sales transactions, and finding the highest grossing sales transaction of the day.
+* Looking through a clean laundry basket, and finding matching pairs!
+##### !end-answer
+
+##### !explanation
+All of these options are correct! These scenarios all involve iterating through sets of data and executing logic to produce a specific outcome.
+##### !end-explanation
+
+### !end-challenge
+<!-- prettier-ignore-end -->
 
