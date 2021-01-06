@@ -6,3 +6,6 @@
 - :Section: "Lightning Talks"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
+- :Section: "Projects"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-projects
