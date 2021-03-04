@@ -1,6 +1,6 @@
 ---
   :Course:
-  - :Section: Precourse
+  - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  
   - :Section: "About Ada"
