@@ -1,0 +1,16 @@
+:Course:
+- :Section: Sandbox experiment - Ada Build - Intro to Python
+  :Repos:
+  - :Url: https://github.com/gSchool/ada-build-workshop
+- :Section: Developer Skills
+  :Repos:
+  - :Url: https://github.com/gSchool/ada-developer-skills
+- :Section: Ada Precourse v2 - Python
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/ada-precourse-v2
+- :Section: CS Fundamentals
+  :Repos:
+  - :Url: https://github.com/gSchool/ada-cs-fun-class
+- :Section: JavaScript Test
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/ada-javascript-curriculum
