@@ -14,3 +14,6 @@
 - :Section: JavaScript Test
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/ada-javascript-curriculum
+- :Section: Test Custom Snippets
+  :Repos:
+  - :Url: https://github.com/CheezItMan/learn-test-custom-snippets

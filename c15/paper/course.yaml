@@ -1,8 +1,5 @@
 ---
   :Course:
-  - :Section: "Precourse"
-    :Repos:
-    - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  
   - :Section: "About Ada"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
@@ -18,3 +15,6 @@
   - :Section: "Problem-Solving Exercises (PSEs)"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-pses
+  - :Section: "Precourse"
+    :Repos:
+    - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  

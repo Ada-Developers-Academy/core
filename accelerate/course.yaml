@@ -1,0 +1,20 @@
+---
+:Course:
+- :Section: "About Ada"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
+- :Section: "Precourse"
+  :Repos:
+  - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  
+- :Section: "Unit 1"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
+- :Section: "Lightning Talks"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
+- :Section: "Projects"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-projects
+- :Section: "Problem-Solving Exercises (PSEs)"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-pses
