@@ -3,15 +3,15 @@
   - :Section: "Unit 2"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-2    
-  - :Section: "Lightning Talks"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
   - :Section: "Projects"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-projects
   - :Section: "Problem-Solving Exercises (PSEs)"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-pses
+  - :Section: "Lightning Talks"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
   - :Section: "Unit 1"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
