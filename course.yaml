@@ -12,6 +12,9 @@
   - :Section: "Lightning Talks"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
+  - :Section: "Internship Process"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-internship-process
   - :Section: "Unit 1"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
