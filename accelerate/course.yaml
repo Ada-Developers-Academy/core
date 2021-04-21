@@ -21,3 +21,6 @@
 - :Section: "Problem-Solving Exercises (PSEs)"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-pses
+- :Section: "Internship Process"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-internship-process
