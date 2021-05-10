@@ -1,11 +1,5 @@
 ---
 :Course:
-- :Section: "About Ada"
-  :Repos:
-  - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
-- :Section: "Precourse"
-  :Repos:
-  - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  
 - :Section: "Unit 1"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
@@ -24,3 +18,9 @@
 - :Section: "Internship Process"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-internship-process
+- :Section: "About Ada"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
+- :Section: "Precourse"
+  :Repos:
+  - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  
