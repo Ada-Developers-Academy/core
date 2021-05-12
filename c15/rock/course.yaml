@@ -6,6 +6,9 @@
   - :Section: "Projects"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-projects
+  - :Section: "Interlude"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-interlude
   - :Section: "Problem-Solving Exercises (PSEs)"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-pses
