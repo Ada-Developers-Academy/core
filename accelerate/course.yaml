@@ -1,8 +1,5 @@
 ---
 :Course:
-- :Section: "Unit 1"
-  :Repos:
-  - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
 - :Section: "Unit 2"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-unit-2    
@@ -21,6 +18,9 @@
 - :Section: "Internship Process"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-internship-process
+- :Section: "Unit 1"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
 - :Section: "About Ada"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
