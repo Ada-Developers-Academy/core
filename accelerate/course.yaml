@@ -6,15 +6,18 @@
 - :Section: "Interlude"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-interlude
-- :Section: "Lightning Talks"
+- :Section: "Unit 3"
   :Repos:
-  - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
+  - :Url: https://github.com/Ada-Developers-Academy/core-unit-3
 - :Section: "Projects"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-projects
 - :Section: "Problem-Solving Exercises (PSEs)"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-pses
+- :Section: "Lightning Talks"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
 - :Section: "Internship Process"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-internship-process
