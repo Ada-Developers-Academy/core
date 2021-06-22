@@ -1,5 +1,8 @@
 ---
 :Course:
+- :Section: "Capstone"
+  :Repos:
+  - :Url: https://github.com/Ada-Developers-Academy/core-capstone
 - :Section: "Unit 3"
   :Repos:
   - :Url: https://github.com/Ada-Developers-Academy/core-unit-3
