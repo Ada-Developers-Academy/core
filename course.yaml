@@ -3,6 +3,9 @@
   - :Section: "Capstone"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-capstone
+  - :Section: "Interlude 2"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-interlude-2
   - :Section: "Unit 3"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-3
