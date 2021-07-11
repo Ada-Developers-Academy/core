@@ -1,14 +1,17 @@
 ---
   :Course:
+  - :Section: "Capstone"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-capstone
+  - :Section: "Interlude 2"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-interlude-2
   - :Section: "Unit 3"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-3
   - :Section: "Projects"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-projects
-  - :Section: "Capstone"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-capstone
   - :Section: "Problem-Solving Exercises (PSEs)"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-pses
