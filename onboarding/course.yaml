@@ -1,0 +1,8 @@
+---
+  :Course:
+  - :Section: "Learning Learn"
+    :Repos:
+    - :Url: https://github.com/gSchool/ada-learn-workshop
+#  - :Section: "Instructor Practices"
+#    :Repos:
+#    - :Url: TODO  
