@@ -1,5 +1,8 @@
 ---
   :Course:
+  - :Section: "Unit 1"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
   - :Section: "About Ada"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
