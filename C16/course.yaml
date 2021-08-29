@@ -6,6 +6,9 @@
   - :Section: "About Ada"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
+  - :Section: "Lightning Talks"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  
