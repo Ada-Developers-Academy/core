@@ -3,6 +3,9 @@
   - :Section: "Unit 1"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
+  - :Section: "Projects"
+    :Repos:
+    - :Url: https://github.com/ada-Developers-Academy/core-projects
   - :Section: "About Ada"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
