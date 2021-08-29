@@ -9,6 +9,9 @@
   - :Section: "Lightning Talks"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
+  - :Section: "Problem Solving Exercises"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-pses
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  
