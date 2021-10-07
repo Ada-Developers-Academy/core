@@ -1,5 +1,8 @@
 ---
   :Course:
+  - :Section: "Unit 2"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-unit-2
   - :Section: "Unit 1"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
@@ -33,7 +36,5 @@
   - :Section: "Interlude"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-interlude
-  - :Section: "Unit 2"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-unit-2
+
 
