@@ -6,6 +6,9 @@
   - :Section: "Unit 1"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
+  - :Section: "CS Fundamentals and Tools"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-cs-fun-and-tools/
   - :Section: "About Ada"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
