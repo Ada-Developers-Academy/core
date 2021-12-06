@@ -30,3 +30,6 @@
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  
+      - :Section: "Capstone"
+  - :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-capstone
