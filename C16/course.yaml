@@ -3,6 +3,9 @@
   - :Section: "Unit 3"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-3
+  - :Section: "Capstone"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-capstone
   - :Section: "Unit 2"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-2
@@ -30,6 +33,3 @@
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  
-  - :Section: "Capstone"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-capstone
