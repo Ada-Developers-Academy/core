@@ -1,0 +1,35 @@
+---
+  :Course:
+  - :Section: "Unit 3"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-unit-3
+  - :Section: "Capstone"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-capstone
+  - :Section: "Unit 2"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-unit-2
+  - :Section: "CS Fundamentals and Tools"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-cs-fun-and-tools
+  - :Section: "Interlude 2"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-interlude-2 
+  - :Section: "Projects"
+    :Repos:
+    - :Url: https://github.com/ada-Developers-Academy/core-projects
+  - :Section: "Problem Solving Exercises"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-pses
+  - :Section: "Unit 1"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
+  - :Section: "About Ada"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
+  - :Section: "Lightning Talks"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
+  - :Section: "Precourse"
+    :Repos:
+    - :Url: https://github.com/ada-developers-academy/ada-precourse-v2  
