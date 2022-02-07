@@ -9,9 +9,12 @@
   - :Section: "Unit 1"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
-  - :Section: "CS Fundamentals and Tools"
+  - :Section: "CS Fundamentals"
     :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-cs-fun-and-tools
+    - :Url: https://github.com/Ada-Developers-Academy/core-cs-fundamentals
+  - :Section: "Software Development Tools"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-software-tools
   - :Section: "Projects"
     :Repos:
     - :Url: https://github.com/ada-Developers-Academy/core-projects
