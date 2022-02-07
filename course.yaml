@@ -8,7 +8,7 @@
     - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
   - :Section: "Unit 1"
     :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-unit-1/tree/be/organization
+    - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
   - :Section: "Unit 2"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-2
@@ -17,11 +17,10 @@
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-3
   - :Section: "CS Fundamentals"
     :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-cs-fundamentals/tree/be/organization
+    - :Url: https://github.com/Ada-Developers-Academy/core-cs-fundamentals
   - :Section: "Software Development Tools"
     :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-software-tools/tree/be/organization
-  - :Section: "Projects"
+    - :Url: https://github.com/Ada-Developers-Academy/core-software-tools
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-projects
   - :Section: "Problem-Solving Exercises (PSEs)"
@@ -35,7 +34,7 @@
     - :Url: https://github.com/Ada-Developers-Academy/core-capstone
   - :Section: "Professional Development / Industry Prep"
     :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-professional-development/tree/be/organization
+    - :Url: https://github.com/Ada-Developers-Academy/core-professional-development
   - :Section: "Internship Process"
     :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-internship-process/tree/be/organization
+    - :Url: https://github.com/Ada-Developers-Academy/core-internship-process
