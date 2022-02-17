@@ -42,3 +42,7 @@
   - :Section: "Social Justice"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-social-justice
+  - :Section: "Career Development"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/career-development
+

@@ -3,6 +3,9 @@
   - :Section: "CS Fundamentals in Internship"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-CS-Fundamentals-Internship
+  - :Section: "Career Services"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/career-development
   - :Section: "Unit 3"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-3
