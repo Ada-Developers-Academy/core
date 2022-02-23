@@ -36,6 +36,13 @@
   - :Section: "Industry Prep"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-industry-prep
+  - :Section: "Social Justice"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-social-justice
+  - :Section: "Career Development"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/career-development
   - :Section: "Internship Process"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-internship-process
+
