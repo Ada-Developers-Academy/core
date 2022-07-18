@@ -45,4 +45,8 @@
   - :Section: "Career Development"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/career-development
+  - :Section: "Career Development and Industry Prep"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-industry-career
+  
 
