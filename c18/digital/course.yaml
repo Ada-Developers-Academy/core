@@ -3,3 +3,32 @@
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2
+  - :Section: "About Ada"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
+  - :Section: "Unit 1"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
+  - :Section: "CS Fundamentals"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-cs-fundamentals
+  - :Section: "Software Development Tools"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-software-tools
+  - :Section: "Projects"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-projects
+  - :Section: "Problem-Solving Exercises (PSEs)"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-pses
+  - :Section: "Lightning Talks"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
+  - :Section: "Social Justice"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-social-justice
+  - :Section: "Career Development and Industry Prep"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-industry-career
+  
+
