@@ -1,8 +1,8 @@
 ---
   :Course:
-  - :Section: "CS Fundamentals"
+  - :Section: "CS Fundamentals - Internship"
     :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
+    - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship/blob/cm/linked-list-intersection/course.yaml
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2
