@@ -3,6 +3,9 @@
   - :Section: "About Ada"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
+  - :Section: "CS Fundamentals in Internship"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
   - :Section: "Unit 1"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
