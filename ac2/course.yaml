@@ -3,6 +3,9 @@
   - :Section: "About Ada"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-about-ada
+  - :Section: "Precourse"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-unit-1
   - :Section: "CS Fundamentals in Internship"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
@@ -45,6 +48,3 @@
   - :Section: "Internship Process"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-internship-process
-  - :Section: "Precourse"
-    :Repos:
-    - :Url: https://github.com/ada-developers-academy/ada-precourse-v2
