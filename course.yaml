@@ -48,5 +48,6 @@
   - :Section: "Career Development and Industry Prep"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-industry-career
-  
-
+  - :Section: "Capstone"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-capstone
