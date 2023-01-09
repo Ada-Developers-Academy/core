@@ -45,6 +45,9 @@
   - :Section: "Internship Process"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-internship-process
+  - :Section: "Capstone"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-capstone/
   - :Section: "CS Fundamentals in Internship"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
