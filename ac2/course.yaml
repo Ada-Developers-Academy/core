@@ -10,8 +10,8 @@
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/cs-fun-interview-practice
   - :Section: "Thursdays at Ada - Internship Mock Interview Retrospectives"
-  :Repos:
-  - :Url: https://github.com/Ada-Developers-Academy/cs-fun-mock-interviews
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-mock-interviews
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/Ada-Accelerate-Curriculum/core-unit-1
