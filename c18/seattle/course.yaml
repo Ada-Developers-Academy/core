@@ -1,9 +1,12 @@
 ---
   :Course:
-  - :Section: "CS Fundamentals in Internship"
+  - :Section: "Thursdays at Ada - CS Fundamentals in Internship"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
-  - :Section: "Internship Mock Interview Retrospectives"
+  - :Section: "Thursdays at Ada - Interview Practice Questions"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-interview-practice
+  - :Section: "Thursdays at Ada - Internship Mock Interview Retrospectives"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/cs-fun-mock-interviews
   - :Section: "Precourse"
