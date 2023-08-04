@@ -42,4 +42,8 @@
   - :Section: "Capstone"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-capstone
+  - :Section: "Internship Prep"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-industry-prep
+
 

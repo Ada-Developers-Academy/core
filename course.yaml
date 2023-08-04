@@ -57,5 +57,6 @@
   - :Section: "Thursdays at Ada - Mock Interview Retrospectives"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/cs-fun-mock-interviews
-  
-
+  - :Section: "Internship Prep"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/core-industry-prep
