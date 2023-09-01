@@ -1,5 +1,14 @@
 ---
   :Course:
+  - :Section: "Unit 4 - Post-Classroom CS Fundamentals"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
+  - :Section: "Thursdays at Ada - Interview Practice Questions"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-interview-practice
+  - :Section: "Thursdays at Ada - Internship Mock Interview Retrospectives"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-mock-interviews
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2
