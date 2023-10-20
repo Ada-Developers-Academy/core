@@ -17,3 +17,6 @@
 - :Section: Test Custom Snippets
   :Repos:
   - :Url: https://github.com/CheezItMan/learn-test-custom-snippets
+- :Section: Ada Sandbox
+  :Repos:
+  - :Url: https://github.com/anselrognlie/ada-sandbox
