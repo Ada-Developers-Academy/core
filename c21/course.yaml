@@ -1,5 +1,17 @@
 ---
   :Course:
+  - :Section: "Unit 4 - Post-Classroom CS Fundamentals"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
+  - :Section: "Unit 4 - Problem Solving Exercises"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-interview-practice
+  - :Section: "Unit 4 - Mock Interview Retrospectives"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-mock-interviews
+  - :Section: "AI Topics"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/independent-ai-topics
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2
@@ -21,9 +33,6 @@
   - :Section: "Software Development Tools"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-software-tools
-  - :Section: "AI Topics"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/independent-ai-topics
   - :Section: "Projects"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-projects
@@ -33,30 +42,20 @@
   - :Section: "Lightning Talks"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-lightning-talks
-  - :Section: "Capstone"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-capstone
-  - :Section: "Industry/Internship Prep"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-industry-prep
-  - :Section: "Internship Process"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/core-internship-process
   - :Section: "Social Justice"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-social-justice
-  - :Section: "Career Development"
+  - :Section: "Professional and Career Development"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/career-development
-  - :Section: "Career Development and Industry Prep"
+  - :Section: "Industry Prep"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-industry-career
-  - :Section: "CS Fundamentals - Internship"
+  - :Section: "Capstone"
     :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
-  - :Section: "Thursdays at Ada - Interview Practice Questions"
+    - :Url: https://github.com/Ada-Developers-Academy/core-capstone
+  - :Section: "Internship Prep"
     :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-interview-practice
-  - :Section: "Thursdays at Ada - Mock Interview Retrospectives"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-mock-interviews
+    - :Url: https://github.com/Ada-Developers-Academy/core-industry-prep
+
+
