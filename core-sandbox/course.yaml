@@ -9,6 +9,9 @@
   - :Section: "Thursdays at Ada - Mock Interview Retrospectives"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/cs-fun-mock-interviews
+  - :Section: "AI Topics"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/independent-ai-topics
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2
