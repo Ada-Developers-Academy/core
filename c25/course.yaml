@@ -1,5 +1,8 @@
 ---
   :Course:
+  - :Section: "Cloud Infrastructure"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/cloud-infrastructure
   - :Section: "Unit 4 - Post-Classroom CS Fundamentals"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
@@ -30,9 +33,6 @@
   - :Section: "AI Topics"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/independent-ai-topics  
-  - :Section: "Cloud Infrastructure"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/cloud-infrastructure
   - :Section: "Projects"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-projects
