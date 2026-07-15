@@ -1,5 +1,17 @@
 ---
   :Course:
+  - :Section: "Cloud Infrastructure"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/cloud-infrastructure
+  - :Section: "Unit 4 - Post-Classroom CS Fundamentals"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
+  - :Section: "Unit 4 - Problem Solving Exercises"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-interview-practice
+  - :Section: "Unit 4 - Mock Interview Retrospectives"
+    :Repos:
+    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-mock-interviews
   - :Section: "Precourse"
     :Repos:
     - :Url: https://github.com/ada-developers-academy/ada-precourse-v2
@@ -21,9 +33,6 @@
   - :Section: "AI Topics"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/independent-ai-topics  
-  - :Section: "Cloud Infrastructure"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/cloud-infrastructure
   - :Section: "Projects"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-projects
@@ -39,12 +48,3 @@
   - :Section: "Internship Prep"
     :Repos:
     - :Url: https://github.com/Ada-Developers-Academy/core-industry-prep
-  - :Section: "Unit 4 - Post-Classroom CS Fundamentals"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/ada-CS-Fundamentals-Internship
-  - :Section: "Unit 4 - Problem Solving Exercises"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-interview-practice
-  - :Section: "Unit 4 - Mock Interview Retrospectives"
-    :Repos:
-    - :Url: https://github.com/Ada-Developers-Academy/cs-fun-mock-interviews
